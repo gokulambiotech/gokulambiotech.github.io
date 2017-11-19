@@ -28,7 +28,9 @@ collections:
     _hide_content: true
   products:
     output: true
-    _hide_content: true
+    _hide_content: false
+
+
 
 paginate: 10
 paginate_path: "/blog/:num/:year/:title"
@@ -96,6 +98,12 @@ exclude:
   - Gemfile.lock
   - README.md
   - LICENCE
+
+# permalink
+#permalink: /products/fertilizers/index.html
+#permalink: /products/biocomposting/index.html
+#permalink: /products/biofertilizer-consortia/index.html
+#permalink: /products/enhancers/index.html
 
 # -----------
 # CloudCannon

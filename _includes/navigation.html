@@ -10,6 +10,18 @@
 		{% if link.link == page.url %}
 			{% assign class = class | append: " active" %}
 		{% endif %}
-		<a href="{% include relative-src.html src=link.link %}" class="{{ class }}" {% if link.new_window %}target="_blank"{% endif %}>{{ link.name }}</a>
+		<a href="{% include relative-src.html src=link.link %}" class="{{ class }}"
+		{% if link.new_window %}target="_blank"{% endif %}>{{ link.name }}</a>
+		<!-- {% if link.subfolder[0] %}
+		<div class="dropdown">
+			<button onclick="myFunction()" class="dropbtn">Dropdown</button>
+  		<div id="myDropdown" class="dropdown-content">
+      <ul>
+        {% for entry in link.subfolder %}
+          <li><a href="{{ entry.url }}">{{ entry.page }}</a></li>
+        {% endfor %}
+      </ul>
+			</div>
+		{% endif %} -->
 	{% endfor %}
 </nav>

@@ -7,17 +7,72 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="129.77397mm"
+   width="109.8688mm"
    height="16.445757mm"
-   viewBox="0 0 459.82903 58.272367"
+   viewBox="0 0 389.29889 58.272367"
    id="svg2"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="Gokulamlogo.svg">
+   sodipodi:docname="Gokulamlogo.svg"
+   inkscape:export-filename="/home/prabha/Downloads/gokulambiotech.github.io/images/Gokulamlogo.svg.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
   <defs
-     id="defs4" />
+     id="defs4">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4593">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop4589" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="1"
+         id="stop4591" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4593"
+       id="linearGradient4595"
+       x1="149.99553"
+       y1="72.21582"
+       x2="488.12445"
+       y2="72.21582"
+       gradientUnits="userSpaceOnUse" />
+    <meshgradient
+       inkscape:collect="always"
+       id="meshgradient4617"
+       gradientUnits="userSpaceOnUse"
+       x="150.49553"
+       y="56.737305">
+      <meshrow
+         id="meshrow4619">
+        <meshpatch
+           id="meshpatch4621">
+          <stop
+             path="c 111.725,0  223.451,0  335.176,0"
+             style="stop-color:#ffffff;stop-opacity:1"
+             id="stop4623" />
+          <stop
+             path="c 0,10.319  0,20.638  0,30.957"
+             style="stop-color:#1a1a1a;stop-opacity:1"
+             id="stop4625" />
+          <stop
+             path="c -111.725,0  -223.451,0  -335.176,0"
+             style="stop-color:#ffffff;stop-opacity:1"
+             id="stop4627" />
+          <stop
+             path="c 0,-10.319  0,-20.638  0,-30.957"
+             style="stop-color:#1a1a1a;stop-opacity:1"
+             id="stop4629" />
+        </meshpatch>
+      </meshrow>
+    </meshgradient>
+  </defs>
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -25,14 +80,14 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.98994949"
-     inkscape:cx="367.83206"
-     inkscape:cy="-183.61011"
+     inkscape:zoom="1.979899"
+     inkscape:cx="150.12102"
+     inkscape:cy="-51.307799"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1855"
-     inkscape:window-height="1056"
+     inkscape:window-width="1535"
+     inkscape:window-height="772"
      inkscape:window-x="65"
      inkscape:window-y="24"
      inkscape:window-maximized="1"
@@ -40,7 +95,8 @@
      fit-margin-right="0.5"
      fit-margin-top="0"
      fit-margin-left="0"
-     fit-margin-bottom="0" />
+     fit-margin-bottom="0"
+     inkscape:snap-text-baseline="true" />
   <metadata
      id="metadata7">
     <rdf:RDF>
@@ -60,16 +116,18 @@
      transform="translate(-29.56708,-33.814321)">
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:30px;line-height:0%;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Bold';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;opacity:0.615;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.00031245;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;"
        x="148.24944"
        y="87.12793"
        id="text3402"
-       sodipodi:linespacing="125%"><tspan
+       sodipodi:linespacing="0%"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
          sodipodi:role="line"
          id="tspan3404"
          x="148.24944"
          y="87.12793"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif">Gokulam BioTech</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:30px;line-height:0%;font-family:'DejaVu Sans Mono';-inkscape-font-specification:'DejaVu Sans Mono, Bold';text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.00031245;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;">Gokulam Biotech</tspan></text>
     <g
        transform="matrix(1.7720257,-1.1575773,0.92038408,1.4089289,-794.90343,125.2676)"
        id="layer1-6"

@@ -6,6 +6,15 @@
   link: /products/
   new_window: false
   highlight: false
+  subfolder:
+    - page: Fertilizers
+      url:  /fertilizer/
+    - page: Biocomposting
+      url:  /biocomposting/
+    - page: Biofertilizer-Consortia
+      url:  /biofertilizer-consortia/
+    - page: Enhancers
+      url:  /enhancers/
 - name: Blog
   link: /blog/
   new_window: false
