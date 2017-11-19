@@ -20,5 +20,5 @@
   highlight: false
 - name: Careers
   link: /careers/
-  new_window: true
+  new_window: false
   highlight: false

@@ -1,7 +1,5 @@
 ---
 name:
-position:
+shortdescription:
 image_path:
-twitter:
-blurb:
 ---

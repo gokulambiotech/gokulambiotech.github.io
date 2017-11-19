@@ -21,14 +21,16 @@ social:
     - "https://gokulambiotech.github.io/"
 
 # -----
-# Build
+# Build new folders and content
 
 collections:
   staff_members:
     _hide_content: true
+  products_info:
+    _hide_content: true
 
 paginate: 10
-paginate_path: "/blog/:num/"
+paginate_path: "/blog/:num/:year/:title"
 permalink: pretty
 
 defaults:
