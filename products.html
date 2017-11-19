@@ -1,13 +1,13 @@
 ---
 title: Products
 heading: Gokulam BioTech Products
-description: All products include minimum Guarantee.
+description: All products have minimum 1 year shelf-life.
 
 faq:
   - question: What types of payment do you accept?
-    answer: Credit cards including MasterCard, Visa or American Express.
-  - question: Can I change my plan at a later time?
-    answer: Yes, you can upgrade and downgrade your plan at anytime.
+    answer: Credit cards including MasterCard, Visa or American Express, Bank Transfer.
+  - question: How Much time does it take to process our order?
+    answer: Depends on your order quantity.
   - question: Do you offer pricing for nonprofit organizations?
     answer: Yes, send us a message and we'll set you up on our nonprofit pricing.
   - question: Questions?
@@ -19,12 +19,17 @@ faq:
 
 <ul class="staff">
 	{% for product in site.products_info %}
+    {% if product.fertilizer %}
 		<li>
+      <!-- <div class="square-image"><img src="{% include relative-src.html src=product.image_path %}" alt="{{ product.name }}"/></div> -->
 			<div class="name">{{ product.name }}</a></div>
 			<div class="position">{{ product.shortdescription}}</div>
 		</li>
+    {% endif %}
 	{% endfor %}
 </ul>
+
+<h2> LIQUID Bio-Composing.</h2>
 
 
 {% if page.faq %}

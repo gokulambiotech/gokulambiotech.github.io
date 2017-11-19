@@ -10,10 +10,10 @@ disqus_shortname:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /Gokulamlogo.png
-description: BioTech
+description: Gokulam BioTech
 author:
-  name:
-  email:
+  name: Prabhakaran Kasinathan
+  email: prabhakaran1989@gmail.combined
   twitter: GokulamBioTech
 social:
   name: SocialBioTech
