@@ -9,7 +9,7 @@ google_maps_javascript_api_key:
 disqus_shortname:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
-logo: /krish-logo.png
+logo: /Gokulamlogo.png
 description: BioTech
 author:
   name:
@@ -54,6 +54,15 @@ defaults:
   -
     scope:
       path: ""
+      type: "products_info"
+    values:
+      _options:
+        image_path:
+          width: 600
+          height: 600
+  -
+    scope:
+      path: ""
     values:
       layout: "page"
   -
@@ -89,8 +98,7 @@ exclude:
 
 social_icons:
   - Twitter
-  - YouTube
-  - Github
+  - Google Plus
 
 _comments:
   map: Update the map location and display settings.
