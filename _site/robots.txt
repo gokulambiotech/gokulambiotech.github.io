@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: http://localhost:5000/sitemap.xml
+Sitemap: https://proud-alligator.cloudvent.net/sitemap.xml
