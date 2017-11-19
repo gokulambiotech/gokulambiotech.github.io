@@ -1,24 +1,24 @@
 # ----
 # Site
 
-title: Hydra Template
-url: "https://proud-alligator.cloudvent.net"
+title: GokulamBioTech
+url: "https://gokulambiotech.github.io/"
 baseurl:
-google_analytics_key:
+google_analytics_key: googlec219439fed19fd3d.html
 google_maps_javascript_api_key:
 disqus_shortname:
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
-logo: /siteicon.png
-description: Product marketing template for Jekyll.
+logo: /krish-logo.png
+description: BioTech
 author:
   name:
   email:
-  twitter: # twitter username without the @ symbol
+  twitter: GokulamBioTech
 social:
-  name: Hydra Template
+  name: SocialBioTech
   links:
-    - https://github.com/CloudCannon/hydra-jekyll-template
+    - "https://gokulambiotech.github.io/"
 
 # -----
 # Build
@@ -88,15 +88,9 @@ exclude:
 # CloudCannon
 
 social_icons:
-  - Facebook
-  - Google Plus
-  - Instagram
-  - LinkedIn
-  - Pinterest
-  - Tumblr
   - Twitter
   - YouTube
-  - RSS
+  - Github
 
 _comments:
   map: Update the map location and display settings.
