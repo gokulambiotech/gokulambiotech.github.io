@@ -3,7 +3,7 @@ name: KRISHI - Mulberry Bio-Booster
 biofertilizer-consortia: true
 shortdescription: a consortia of biofertilizers necessary for augmenting vegetative growth of mulberry
 image_path: /images/krish-logo.jpg
-link: biofertilizer-consortia/Mulberry Bio-Booster/
+link: Mulberry Bio-Booster/
 new_window: false
 ---
 ### Description

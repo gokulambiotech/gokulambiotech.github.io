@@ -3,7 +3,7 @@ name: KRISHI - Krishizyme
 enhancers: true
 shortdescription: a consortia of biofertilizers necessary for augmenting vegetative growth of mulberry
 image_path: /images/krish-logo.jpg
-link: enhancers/Krishizyme/
+link: Krishizyme/
 new_window: false
 ---
 ### Description

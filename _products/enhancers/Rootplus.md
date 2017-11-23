@@ -3,7 +3,7 @@ name: KRISHI - ROOTPLUS
 enhancers: true
 shortdescription: a consortia of biofertilizers necessary for augmenting vegetative growth of mulberry
 image_path: /images/krish-logo.jpg
-link: enhancers/Rootplus/
+link: Rootplus/
 new_window: false
 ---
 ### Description

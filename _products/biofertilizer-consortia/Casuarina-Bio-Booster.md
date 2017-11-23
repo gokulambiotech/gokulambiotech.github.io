@@ -3,7 +3,7 @@ name: KRISHI - Casuarina Bio-Booster
 biofertilizer-consortia: true
 shortdescription: Casuarina Bio-Booster contains a consortia of bioinoculants
 image_path: /images/krish-logo.jpg
-link: biofertilizer-consortia/Casuarina-Bio-Booster/
+link: Casuarina-Bio-Booster/
 new_window: false
 ---
 ### Description

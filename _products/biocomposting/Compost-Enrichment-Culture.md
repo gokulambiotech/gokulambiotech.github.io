@@ -3,7 +3,7 @@ name: KRISHI - Compost-Enrichment-Culture
 composting: true
 shortdescription: BCM contains a consortia of fungal and bacterial cultures
 image_path: /images/krish-logo.jpg
-link: biocomposting/Compost-Enrichment-Culture/
+link: Compost-Enrichment-Culture/
 new_window: false
 ---
 ### Description

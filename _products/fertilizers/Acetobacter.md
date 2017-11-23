@@ -1,7 +1,7 @@
 ---
 title: KRISHI - Acetobacter
 name: KRISHI - Acetobacter
-link: fertilizers/Acetobacter/
+link: Acetobacter/
 fertilizer: true
 new_window: false
 shortdescription: also referred to recently as Gluconacetobacter and is recommended as a biofertilizer for sugarcane.

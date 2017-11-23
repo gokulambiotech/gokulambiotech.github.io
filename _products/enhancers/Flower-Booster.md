@@ -3,7 +3,7 @@ name: KRISHI - Flower-Booster
 enhancers: true
 shortdescription: a consortia of biofertilizers necessary for augmenting vegetative growth of mulberry
 image_path: /images/krish-logo.jpg
-link: enhancers/Flower-Booster/
+link: Flower-Booster/
 new_window: false
 ---
 ### Description

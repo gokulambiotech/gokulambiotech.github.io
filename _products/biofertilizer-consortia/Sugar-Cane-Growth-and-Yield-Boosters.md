@@ -3,7 +3,7 @@ name: KRISHI - Sugar Cane Growth and Yield Boosters
 biofertilizer-consortia: true
 shortdescription: a consortia of biofertilizers necessary for augmenting vegetative growth of mulberry
 image_path: /images/krish-logo.jpg
-link: biofertilizer-consortia/Sugar-Cane-Growth-and-Yield-Boosters/
+link: Sugar-Cane-Growth-and-Yield-Boosters/
 new_window: false
 ---
 ### Description

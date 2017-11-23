@@ -3,7 +3,7 @@ name: KRISHI - Growth and Yield Booster (General)
 biofertilizer-consortia: true
 shortdescription: Casuarina Bio-Booster contains a consortia of bioinoculants
 image_path: /images/krish-logo.jpg
-link: biofertilizer-consortia/Growth-and-Yield-Booster/
+link: Growth-and-Yield-Booster/
 new_window: false
 ---
 ### Description

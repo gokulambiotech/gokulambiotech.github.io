@@ -3,7 +3,7 @@ name: KRISHI - Azospirillum
 fertilizer: true
 shortdescription: is a beneficial soil-borne bacterium capable of fixing considerable quantity of nitrogen in soil.
 image_path: /images/krish-logo.jpg
-link: fertilizers/Azospirillum/
+link: Azospirillum/
 new_window: false
 ---
 ### Description

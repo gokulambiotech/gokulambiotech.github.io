@@ -3,7 +3,7 @@ name: KRISHI - Seaweed Extract Bio-fertilizer
 enhancers: true
 shortdescription: a consortia of biofertilizers necessary for augmenting vegetative growth of mulberry
 image_path: /images/krish-logo.jpg
-link: enhancers/Seaweed-Extract-Bio-fertilizer/
+link: Seaweed-Extract-Bio-fertilizer/
 new_window: false
 ---
 ### Description
