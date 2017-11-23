@@ -77,6 +77,11 @@ defaults:
       layout: "default"
   -
     scope:
+      path: "products.html"
+    values:
+      layout: "default"
+  -
+    scope:
       path: "contact.html"
     values:
       full_width: true
@@ -91,6 +96,7 @@ gems:
   - jekyll-seo-tag
   - jekyll-feed
   - jekyll-paginate
+  - jekyll-redirect-from
 
 exclude:
   - Gemfile

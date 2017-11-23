@@ -14,21 +14,32 @@ faq:
     answer: Contact us for any further questions at <a href="/contact/">contact</a>.
 ---
 
-{% for link in site.data.navigation %}
-  {% if link.subfolder[0] %}
-      <ul class="staff">
-      {% for entry in link.subfolder %}
-        <li>
-          <h2>
-            <a href="{{ entry.url }}">{{ entry.page }}</a>
-          </h2>
-        </li>
-      {% endfor %}
-      </ul>
-  {% endif %}
-{% endfor %}
+<section class="content">
+	<div class="container flex">
+    {% for link in site.data.navigation %}
+      {% if link.subfolder[0] %}
+          <ul class="staff">
+          {% for entry in link.subfolder %}
+            <li>
+              <h2>
+                <a href="{{ entry.url }}">{{ entry.page }}</a>
+              </h2>
+            </li>
+          {% endfor %}
+          </ul>
+      {% endif %}
+    {% endfor %}
+	</div>
+</section>
 
 
+<section class="bottom-cta">
+  <h2 class="editable"><strong>Gokulam Biotech</strong> - Comprehensive Product List</h2>
+  <div class="button alt"><a href="/download/Gokulam-eBook.pdf">Get Gokulam Biotech Products Book</a></div>
+</section>
+
+
+<section class="testimonial">
 {% if page.faq %}
 	<h2>Pricing FAQ</h2>
 	<dl class="faq">
@@ -40,3 +51,4 @@ faq:
 		{% endfor %}
 	</dl>
 {% endif %}
+</section>
