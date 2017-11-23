@@ -16,10 +16,13 @@ pricing_table:
 
   - name: Sales Office
     color: "#8e8e8e"
-    features:
-      - text: Salary > $99 per month
-        highlight: true
-      - text: location - North India
+    map:
+      latitude: 19.077655
+      longitude: 72.881175
+      address: "Opening Soon, Mumbai, India"
+      Landline: +91-413-2611455
+      Mobile: +91-94431 49095
+      googledirection:
 
 
 map:
@@ -48,19 +51,19 @@ map:
 </div>
 
 <div class="map" id="map1"></div>
-
+<div class="map" id="map"></div>
 <script type="text/javascript">
 window.mapData = {{ page.map | jsonify }};
       function initMap() {
         var uluru = {lat: window.mapData.latitude, lng: window.mapData.longitude};
-        var map = new google.maps.Map(document.getElementById('map1'), {
+        var map1 = new google.maps.Map(document.getElementById('map1'), {
           zoom: 4,
           center: uluru,
           zoom: window.mapData.zoom
         });
         var marker = new google.maps.Marker({
           position: uluru,
-          map: map
+          map: map1
         });
       }
 </script>
