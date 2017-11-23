@@ -8,13 +8,17 @@
   highlight: false
   subfolder:
     - page: Fertilizers
-      url:  /products/fertilizer/
+      url:  /products/fertilizers/
+      shortdescription: Fertilizers xxx
     - page: Biocomposting
       url:  /products/biocomposting/
+      shortdescription: Biocomposting xxx
     - page: Biofertilizer-Consortia
       url:  /products/biofertilizer-consortia/
+      shortdescription: Biofertilizer-Consortia xxx
     - page: Enhancers
       url:  /products/enhancers/
+      shortdescription: Enhancers xxx
 - name: Blog
   link: /blog/
   new_window: false
