@@ -3,6 +3,25 @@ title: Contact
 heading: Get in touch today
 description: We'd love to help you improve your sales.
 
+pricing_table:
+  - name: Head Quarters
+    color: "#4a4a4a"
+    map:
+      latitude: 11.7929453
+      longitude: 79.7668783
+      address: "36 Sri Ram Nagar, Cuddalore-Pondy Main Road, Kanniakoil, Pondicherry, India"
+      Landline: +91-413-2611455
+      Mobile: +91-94431 49095
+      googledirection:
+
+  - name: Sales Office
+    color: "#8e8e8e"
+    features:
+      - text: Salary > $99 per month
+        highlight: true
+      - text: location - North India
+
+
 map:
   latitude: 11.7929453
   longitude: 79.7668783
@@ -10,19 +29,26 @@ map:
   zoom: 13
 ---
 
-<div class="contact-box">
-		<div class="contact-details">
-		<h3 class="editable">Address</h3>
-		<address><a target="_blank" href="https://www.google.com/maps/place/{{ page.map.address | url_encode }}">{{ page.map.address | replace: ", ", ", <br>" }}</a></address>
-    <h3 class="editable">Phone</h3>
-		<p> Landline: +91-413-2611455</br>
-        Mobile: +91-94431 49095</p>
-		<h3 class="editable">Email</h3>
-		<p><a href="mailto:crk53kris@gmail.com">crk53kris@gmail.com</a></p>
-	</div>
+<div class="plans">
+	{% for plan in page.pricing_table %}
+		<ul class="plan">
+			<li style="background: {{ plan.color }}">
+				<h3>{{ plan.name }}</h3>
+			</li>
+      <li>
+        <address><a target="_blank" href="https://www.google.com/maps/place/{{ page.map.address | url_encode }}">
+          {{ plan.map.address | replace: ", ", ", <br>" }}</a></address>
+        <p> Landline: {{plan.map.Landline}} </br>
+            Mobile: {{plan.map.Mobile}}</br>
+    		    Email:<a href="mailto:crk53kris@gmail.com">crk53kris@gmail.com</a>
+        </p>
+      </li>
+    </ul>
+	{% endfor %}
 </div>
 
 <div class="map" id="map1"></div>
+
 <script type="text/javascript">
 window.mapData = {{ page.map | jsonify }};
       function initMap() {
@@ -37,5 +63,6 @@ window.mapData = {{ page.map | jsonify }};
           map: map
         });
       }
-    </script>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key={{ site.google_maps_javascript_api_key }}&amp;callback=initMap"></script>
+</script>
+
+<script async defer src="https://maps.googleapis.com/maps/api/js?key={{ site.google_maps_javascript_api_key }}&amp;callback=initMap"></script>

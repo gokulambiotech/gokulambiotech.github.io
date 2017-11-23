@@ -10,15 +10,27 @@
     - page: Fertilizers
       url:  /products/fertilizers/
       shortdescription: Fertilizers xxx
+      image_path: /images/krish-logo.jpg
     - page: Biocomposting
       url:  /products/biocomposting/
       shortdescription: Biocomposting xxx
+      image_path: /images/krish-logo.jpg
     - page: Biofertilizer-Consortia
       url:  /products/biofertilizer-consortia/
       shortdescription: Biofertilizer-Consortia xxx
+      image_path: /images/krish-logo.jpg
     - page: Enhancers
       url:  /products/enhancers/
       shortdescription: Enhancers xxx
+      image_path: /images/krish-logo.jpg
+    - page: Fungicide
+      url:  /products/Fungicide/
+      shortdescription: Enhancers xxx
+      image_path: /images/krish-logo.jpg
+    - page: pesticide
+      url:  /products/pesticide/
+      shortdescription: Enhancers xxx
+      image_path: /images/krish-logo.jpg
 - name: Blog
   link: /blog/
   new_window: false

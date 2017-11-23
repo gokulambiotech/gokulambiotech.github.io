@@ -2,53 +2,44 @@
 title: Products
 heading: Gokulam BioTech Products
 description: All products have minimum 1 year shelf-life.
-
-faq:
-  - question: What types of payment do you accept?
-    answer: Credit cards including MasterCard, Visa or American Express, Bank Transfer.
-  - question: How Much time does it take to process our order?
-    answer: Depends on your order quantity.
-  - question: Do you offer pricing for nonprofit organizations?
-    answer: Yes, send us a message and we'll set you up on our nonprofit pricing.
-  - question: Questions?
-    answer: Contact us for any further questions at <a href="/contact/">contact</a>.
 ---
+<div class="content">
+	<section class="page">
+		<div class="container {% if page.full_width %}max-container{% endif %}">
+			{% if page.heading %}
+				<h2>{{ page.heading }}</h2>
+			{% elsif page.title and page.layout != 'archive' %}
+				<h2>{{ page.title }}</h2>
+			{% endif %}
+			{% if page.description %}
+				<p class="subtext">{{ page.description }}</p>
+			{% endif %}
+		</div>
 
-<section class="content">
-	<div class="container flex">
-    {% for link in site.data.navigation %}
-      {% if link.subfolder[0] %}
-          <ul class="staff">
-          {% for entry in link.subfolder %}
-            <li>
-              <h2>
-                <a href="{{ entry.url }}">{{ entry.page }}</a>
-              </h2>
-            </li>
-          {% endfor %}
-          </ul>
-      {% endif %}
-    {% endfor %}
-	</div>
-</section>
+    <div class="container">
+      {% for link in site.data.navigation %}
+        {% if link.subfolder[0] %}
+            <ul class="products">
 
+            {% for entry in link.subfolder %}
+              <li>
+                  <div class="small-image">
+                    <a href="{{ entry.url }}">
+                    <img src="{{ entry.image_path }}" alt="{{ entry.url }}"/>
+                    <div class="pname">{{ entry.page }}</div>
+                    </a>
+                  </div>
+              </li>
+            {% endfor %}
+            </ul>
+        {% endif %}
+      {% endfor %}
+    </div>
+	</section>
+</div>
 
 <section class="bottom-cta">
   <h2 class="editable"><strong>Gokulam Biotech</strong> - Comprehensive Product List</h2>
   <div class="button alt"><a href="/download/Gokulam-eBook.pdf">Get Gokulam Biotech Products Book</a></div>
 </section>
-
-
-<section class="testimonial">
-{% if page.faq %}
-	<h2>Pricing FAQ</h2>
-	<dl class="faq">
-		{% for item in page.faq %}
-			<div>
-				<dt>{{ item.question }}</dt>
-				<dd>{{ item.answer }}</dd>
-			</div>
-		{% endfor %}
-	</dl>
-{% endif %}
-</section>
+</div>

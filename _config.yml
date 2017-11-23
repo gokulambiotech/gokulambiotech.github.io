@@ -80,11 +80,15 @@ defaults:
       path: "products.html"
     values:
       layout: "default"
+      _options:
+        image_path:
+          width: 100
+          height: 100
   -
     scope:
       path: "contact.html"
     values:
-      full_width: true
+      full_width: false
 
 jekyll-archives:
   enabled:
