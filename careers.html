@@ -2,40 +2,45 @@
 title: Careers
 heading: We are looking for Talented People
 description: Every employee is treated equally in our company. 70% of our workforce is Women.
-pricing_table:
+
+positions:
+  - name: Open Position
+    color: "#8e8e8e"
+    info:
+      - text: Knowledge about Plant Biotechnology
+        highlight: true
+      - text: location - Pondicherry
+
+future-positions:
   - name: PhD Student
     color: "#8e8e8e"
-    features:
+    info:
       - text: Salary > $25 per month
         highlight: true
       - text: location - Pondicherry
 
   - name: Sales Manager
     color: "#4a4a4a"
-    features:
+    info:
       - text: Salary > $99 per month
         highlight: true
       - text: location - North India
 
 faq:
   - question: How do I apply for the job?
-    answer: Send your cv to the contact HR email address.
-  - question: HR email address?
-    answer: Contact us for any further questions at <a href="mailto:">gokulambiotech@gmail.com</a>.
+    answer: Send your cv and a coverletter to the contact our HR email address <a href="mailto:">gokulambiotech@gmail.com</a>.
+  - question: How many days it might take to get a response?
+    answer: If your CV and profile is interesting, you will get a response within two weeks. Thanks for your interest otherwise!
 ---
 <div class="plans">
-	{% for plan in page.pricing_table %}
+	{% for position in page.positions %}
 		<ul class="plan">
-			<li style="background: {{ plan.color }}">
-				<h3>{{ plan.name }}</h3>
+			<li style="background: {{ position.color }}">
+				<h3>{{ position.name }}</h3>
 			</li>
-			{% for feature in plan.features %}
-				<li {% if feature.highlight %} class="highlighted"{% endif %}>{{ feature.text }}</li>
+			{% for info in position.info %}
+				<li {% if feature.highlight %} class="highlighted"{% endif %}>{{ info.text }}</li>
 			{% endfor %}
-
-			{% if plan.call_to_action %}
-				<li class="pricing-cta"><div class="button"><a style="background: {{ plan.color }}" href="{{ plan.call_to_action.link }}">{{ plan.call_to_action.text }} &rarr;</a></div></li>
-			{% endif %}
 		</ul>
 	{% endfor %}
 </div>

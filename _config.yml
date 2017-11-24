@@ -13,20 +13,22 @@ logo: /Gokulamlogo.png
 description: Gokulam BioTech
 author:
   name: Dr. Gopinath Ramachandran
-  email: crk53kris@gmail.com
+  email: gokulambiotech@gmail.com
   twitter: GokulamBioTech
+  facebook: gokulambiotec
 social:
   name: Gokulam Biotech
   links:
-    - "https://gokulambiotech.github.io/"
-    - "http://gokulambiotech.blogspot.de/p/contact-us.html"
+    - "https://gokulambiotech.com/"
+    - "http://gokulambiotech.blogspot.de"
 
 # -----
 # Build new folders and content
 
 collections:
-  staff_members:
+  people:
     _hide_content: true
+    output: true
   products:
     output: true
     _hide_content: true
@@ -49,8 +51,9 @@ defaults:
   -
     scope:
       path: ""
-      type: "staff_members"
+      type: "people"
     values:
+      layout: "people"
       _options:
         image_path:
           width: 600
@@ -108,18 +111,11 @@ exclude:
   - README.md
   - LICENCE
 
-# permalink
-#permalink: /products/fertilizers/index.html
-#permalink: /products/biocomposting/index.html
-#permalink: /products/biofertilizer-consortia/index.html
-#permalink: /products/enhancers/index.html
-
-# -----------
-# CloudCannon
 
 social_icons:
   - Twitter
   - Google Plus
+  - Facebook
 
 _comments:
   map: Update the map location and display settings.

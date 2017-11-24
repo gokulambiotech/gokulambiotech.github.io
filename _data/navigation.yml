@@ -5,7 +5,7 @@
 - name: Products
   link: /products/
   new_window: false
-  highlight: false
+  highlight: true
   subfolder:
     - page: Fertilizers
       url:  /products/fertilizers/

@@ -3,7 +3,7 @@ title: Contact
 heading: Get in touch today
 description: We'd love to help you improve your sales.
 
-pricing_table:
+offices:
   - name: Head Quarters
     color: "#4a4a4a"
     map:
@@ -12,6 +12,7 @@ pricing_table:
       address: "36 Sri Ram Nagar, Cuddalore-Pondy Main Road, Kanniakoil, Pondicherry, India"
       Landline: +91-413-2611455
       Mobile: +91-94431 49095
+      email: gokulambiotech@gmail.com
       googledirection:
 
   - name: Sales Office
@@ -19,11 +20,7 @@ pricing_table:
     map:
       latitude: 19.077655
       longitude: 72.881175
-      address: "Opening Soon, Mumbai, India"
-      Landline: +91-413-2611455
-      Mobile: +91-94431 49095
-      googledirection:
-
+      address: "Opening Soon, North-India"
 
 map:
   latitude: 11.7929453
@@ -33,18 +30,28 @@ map:
 ---
 
 <div class="plans">
-	{% for plan in page.pricing_table %}
+	{% for plan in page.offices %}
 		<ul class="plan">
 			<li style="background: {{ plan.color }}">
 				<h3>{{ plan.name }}</h3>
 			</li>
       <li>
-        <address><a target="_blank" href="https://www.google.com/maps/place/{{ page.map.address | url_encode }}">
+      <address>
+        Google Maps:
+          <a target="_blank" href="https://www.google.com/maps/place/{{ page.map.address | url_encode }}">
           {{ plan.map.address | replace: ", ", ", <br>" }}</a></address>
-        <p> Landline: {{plan.map.Landline}} </br>
+
+        {% if plan.map.Landline %}
+          <p>
+            Landline: {{plan.map.Landline}} </br>
+            {% if plan.map.Mobile %}
             Mobile: {{plan.map.Mobile}}</br>
-    		    Email:<a href="mailto:crk53kris@gmail.com">crk53kris@gmail.com</a>
-        </p>
+            {% if plan.map.email %}
+            email:<a href="mailto:{{plan.map.email}}">{{plan.map.email}}<a></br>
+          </p>
+            {% endif %}
+          {% endif %}
+        {% endif %}
       </li>
     </ul>
 	{% endfor %}

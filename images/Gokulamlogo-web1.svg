@@ -16,7 +16,7 @@
    id="svg2"
    version="1.1"
    inkscape:version="0.91 r13725"
-   sodipodi:docname="Gokulamlogo.svg"
+   sodipodi:docname="Gokulamlogo-web1.svg"
    inkscape:export-filename="/home/prabha/github-priv/gokulambiotech.github.io/images/Gokulamlogo.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90"
@@ -81,11 +81,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.8"
-     inkscape:cx="93.546159"
-     inkscape:cy="-69.975713"
+     inkscape:zoom="1.4"
+     inkscape:cx="77.543967"
+     inkscape:cy="-124.64"
      inkscape:document-units="px"
-     inkscape:current-layer="layer3"
+     inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1855"
      inkscape:window-height="1056"
@@ -167,7 +167,7 @@
      transform="translate(-6.5660052,-4.0406106)">
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;opacity:1;fill:#008000;fill-opacity:1;stroke:#000000;stroke-width:0.10000001;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:0;stroke-dasharray:none;stroke-opacity:1;"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.10000001;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:0;stroke-dasharray:none;stroke-opacity:1"
        x="53.538071"
        y="23.433838"
        id="text4246"
@@ -176,6 +176,6 @@
          id="tspan4248"
          x="53.538071"
          y="23.433838"
-         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:18.75000191px;line-height:125%;font-family:FreeSans;-inkscape-font-specification:'FreeSans, Semi-Bold';text-align:start;writing-mode:lr-tb;text-anchor:start;opacity:0.10100002;fill:#008000;stroke:#000000;stroke-width:0.10000001;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:0;stroke-dasharray:none;stroke-opacity:1;">Gokulam Biotech</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:600;font-stretch:normal;font-size:18.75000191px;line-height:125%;font-family:FreeSans;-inkscape-font-specification:'FreeSans, Semi-Bold';text-align:start;writing-mode:lr-tb;text-anchor:start;opacity:0.10100002;fill:#ffffff;stroke:#000000;stroke-width:0.10000001;stroke-linecap:butt;stroke-linejoin:round;stroke-miterlimit:0;stroke-dasharray:none;stroke-opacity:1">Gokulam Biotech</tspan></text>
   </g>
 </svg>

@@ -1,0 +1,28 @@
+---
+layout: default
+---
+<div class="content">
+	<section class="page">
+		<div class="container {% if page.full_width %}max-container{% endif %}">
+			{% if page.heading %}
+				<h2>{{ page.heading }}</h2>
+			{% elsif page.title and page.layout != 'archive' %}
+				<h2>{{ page.name }}</h2>
+			{% endif %}
+			{% if page.position %}
+				<p class="subtext">{{ page.position }}</p>
+			{% endif %}
+			<ul class="products">
+			<div class="big-image"><img src="{% include relative-src.html src=page.image_path %}" alt="{{ page.name }}"/></div>
+		  </ul>
+			{{ content }}
+			{% for link in page.social %}
+				<li><a {% if link.new_window %}target="_blank"{% endif %} href="{% include relative-src.html src=link.url %}" {% if link.social_icon %}class="{{ link.social_icon }}-icon"{% endif %}>
+					{% if link.social_icon %}
+						{% include social-icon.html icon=link.social_icon %}
+					{% endif %}
+					{{ link.name }}</a></li>
+			{% endfor %}
+		</div>
+	</section>
+</div>
