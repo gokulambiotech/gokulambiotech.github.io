@@ -2,7 +2,7 @@
 # Site
 
 title: GokulamBioTech
-url: "https://gokulambiotech.com/"
+url: "https://gokulambiotech.com"
 baseurl:
 google_analytics_key: UA-109863125-1
 google_maps_javascript_api_key: AIzaSyDMYXq0MRHwat44vONYkjsy6e91JHTlfWI
@@ -19,7 +19,7 @@ author:
 social:
   name: Gokulam Biotech
   links:
-    - "https://gokulambiotech.com/"
+    - "https://gokulambiotech.com"
     - "http://gokulambiotech.blogspot.de"
 
 # -----
