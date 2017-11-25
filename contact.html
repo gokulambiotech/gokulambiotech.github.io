@@ -56,9 +56,7 @@ map:
     </ul>
 	{% endfor %}
 </div>
-
 <div class="map" id="map1"></div>
-<div class="map" id="map"></div>
 <script type="text/javascript">
 window.mapData = {{ page.map | jsonify }};
       function initMap() {
@@ -74,5 +72,4 @@ window.mapData = {{ page.map | jsonify }};
         });
       }
 </script>
-
 <script async defer src="https://maps.googleapis.com/maps/api/js?key={{ site.google_maps_javascript_api_key }}&amp;callback=initMap"></script>
