@@ -19,6 +19,14 @@
 
 	}
 
+	.medium-image {
+		width: 150px;
+		height: 200px;
+			img {
+				border-radius: 10px;
+			}
+		}
+		
 	.square-image {
 		width: 200px;
 		height: 200px;
