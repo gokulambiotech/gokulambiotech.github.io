@@ -7,29 +7,29 @@
   new_window: false
   highlight: true
   subfolder:
-    - page: Fertilizers
+    - page: BioFertilizers
       url:  /products/fertilizers/
-      shortdescription: Fertilizers xxx
+      shortdescription: KRISHI Fertilizers
       image_path: /images/krish-logo.jpg
-    - page: Biocomposting
+    - page: BioComposting
       url:  /products/biocomposting/
-      shortdescription: Biocomposting xxx
+      shortdescription: KRISHI Biocomposting
       image_path: /images/krish-logo.jpg
     - page: Biofertilizer-Consortia
       url:  /products/biofertilizer-consortia/
-      shortdescription: Biofertilizer-Consortia xxx
+      shortdescription: KRISHI-Biofertilizer-Consortia
       image_path: /images/krish-logo.jpg
     - page: Enhancers
       url:  /products/enhancers/
-      shortdescription: Enhancers xxx
+      shortdescription: KRISHI Bio-Enhancers
       image_path: /images/krish-logo.jpg
     - page: Fungicide
       url:  /products/Fungicide/
-      shortdescription: Enhancers xxx
+      shortdescription: KRISHI Bio-Fungicides
       image_path: /images/krish-logo.jpg
-    - page: pesticide
-      url:  /products/pesticide/
-      shortdescription: Enhancers xxx
+    - page: Biopesticide
+      url:  /products/pesticides/
+      shortdescription: KRISHI Bio-Pesticides
       image_path: /images/krish-logo.jpg
 - name: Certifications
   link: /certifications/
@@ -38,7 +38,7 @@
 - name: Blog
   link: /blog/
   new_window: false
-  highlight: false  
+  highlight: false
 - name: Our Team
   link: /people/
   new_window: false

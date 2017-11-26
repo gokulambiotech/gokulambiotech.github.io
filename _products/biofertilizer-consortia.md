@@ -1,9 +1,7 @@
 ---
-title: Gokulam Biotech Fertilizers
-description: Check out more details.
+title: Liquid Biofertilizer-consortia
+description:
 ---
-
-<h2> Liquid Biofertilizer-consortia.</h2>
 
 <ul class="staff">
 	{% for product in site.products %}
@@ -21,3 +19,14 @@ description: Check out more details.
     {% endif %}
 	{% endfor %}
 </ul>
+
+### ADVANTAGES OF LIQUID BIOINOCULANTS
+
+1. Easy to handle and transport.
+2. Readily miscible in water.
+3. No requirement of additives.
+4. Shelf life more than a year at normal temperature.
+5. Highly purified concentrate.
+6. Less contamination.
+7. Less quantity requirement per acre when compared to powder type of biofertilizers / biopesticides / biofungicides.
+8. Better efficacy than normal powder formulations or broth type liquid formulations.

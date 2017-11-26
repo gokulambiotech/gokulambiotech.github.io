@@ -1,9 +1,8 @@
 ---
-title: Gokulam Biotech Fertilizers
-description: Check out more details.
+title: Growth Enhancers
 ---
 
-<h2> Growth Enhancers </h2>
+<h2>  </h2>
 
 <ul class="staff">
 	{% for product in site.products %}

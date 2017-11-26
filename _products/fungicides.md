@@ -1,10 +1,7 @@
 ---
-title: Gokulam Biotech Fertilizers
-description: Check out more details.
+title: KRISHI - Biofungicides
+description:
 ---
-
-<h2> LIQUID Bio-Fertilizers.</h2>
-
 <ul class="staff">
 	{% for product in site.products %}
     {% if product.fertilizer %}
@@ -21,3 +18,6 @@ description: Check out more details.
     {% endif %}
 	{% endfor %}
 </ul>
+
+### Precautions for use and Storage of Biopesticides and Fungicides
+Spraying of chemical fungicides and antibiotics should be avoided seven days before and after application of biopesticides and fungicides. Bottle containing bioinoculants should be stored in a cool and dry place away from direct sunlight.
