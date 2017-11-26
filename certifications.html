@@ -2,37 +2,19 @@
 title: Certifications
 heading: Gokulam Biotech Certifications
 description: We care about quality and compliance
-certinfo:
-	- name:ISCOP
-		url:http://hello.com
-		image_path: /images/blog/ind-gov.png
 ---
-
-<div class="container">
-		<ul class="products">
-		{% for cert in page.certinfo %}
-		{% if cert.subfolder[0] %}
-			<li>
-					<div class="small-image">
-						<a href="{{ cert.url }}">
-						<img src="{{ cert.image_path }}" alt="{{ cert.url }}"/>
-						<div class="pname">{{ cert.name }}</div>
-						</a>
-					</div>
-			</li>
-			{% endif %}
-		{% endfor %}
-		</ul>
-</div>
-
-<section class="testimonial">
-	<div class="container flex">
-		<div class="testimonial-block">
-			<div class="small-image"><img src="/images/blog/iscop_logo.jpg" alt="ISCOP" class="editable"></div>
-			<blockquote>
-				<p class="editable"> Certified by ISCOP </p>
-				<p class="editable author">INDIAN SOCIETY FOR CERTIFICATION OF ORGANIC PRODUCTS</p>
-			</blockquote>
-		</div>
-	</div>
-</section>
+<ul class="staff">
+	{% for certs in site.certifications %}
+    <li>
+      <!-- <div class="square-image"><img src="{% include relative-src.html src=product.image_path %}" alt="{{ product.name }}"/></div> -->
+			<div class="name">
+        <div class="square-image"><img src="{% include relative-src.html src=certs.image_path %}" alt="{{ certs.name }}"/></div>
+        <a href="{% include relative-src.html src=certs.link %}
+        " class="{{ class }}" {% if certs.new_window %}target="_blank"{% endif %}>
+          {{ certs.name}}
+        </a>
+        </div>
+			<div class="position">{{ certs.shortdescription}}</div>
+		</li>
+	{% endfor %}
+</ul>
