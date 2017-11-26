@@ -95,6 +95,13 @@ defaults:
     values:
       full_width: false
 
+  -
+    scope:
+      path: "certifications.html"
+    values:
+      layout: "default"
+      full_width: false
+
 jekyll-archives:
   enabled:
     - categories

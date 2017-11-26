@@ -15,7 +15,7 @@
       url:  /products/biocomposting/
       shortdescription: KRISHI Biocomposting
       image_path: /images/krish-logo.jpg
-    - page: Biofertilizer-Consortia
+    - page: BioFertilizer-Consortia
       url:  /products/biofertilizer-consortia/
       shortdescription: KRISHI-Biofertilizer-Consortia
       image_path: /images/krish-logo.jpg
@@ -27,7 +27,7 @@
       url:  /products/Fungicide/
       shortdescription: KRISHI Bio-Fungicides
       image_path: /images/krish-logo.jpg
-    - page: Biopesticide
+    - page: BioPesticide
       url:  /products/pesticides/
       shortdescription: KRISHI Bio-Pesticides
       image_path: /images/krish-logo.jpg
