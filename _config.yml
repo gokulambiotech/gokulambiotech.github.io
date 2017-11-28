@@ -7,6 +7,7 @@ baseurl:
 google_analytics_key: UA-109863125-1
 google_maps_javascript_api_key: AIzaSyDMYXq0MRHwat44vONYkjsy6e91JHTlfWI
 disqus_shortname: https-gokulambiotech-github-io
+snipcart_key: "YWQ5NWI4ZjctMWMwYS00NDI0LTk2MWYtM2ZkNTc1YTJhYWM1NjM2NDc0MTc2MTAwODY1MjIy"
 
 # Google verification Links
 
@@ -36,7 +37,7 @@ collections:
     _hide_content: true
   certifications:
     output: true
-    _hide_content: true  
+    _hide_content: true
 
 paginate: 10
 paginate_path: "/blog/:num/:year/:title"
@@ -68,7 +69,7 @@ defaults:
       path: ""
       type: "products_info"
     values:
-      layout: "page"
+      layout: "product"
       _options:
         image_path:
           width: 600

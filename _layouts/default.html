@@ -4,6 +4,8 @@
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
 	<link rel="stylesheet" href="{{ site.baseurl }}/css/screen.css">
 	<link rel="icon" type="image/png" href="{{ site.baseurl }}/icon.png">
 	{% seo %}
@@ -19,6 +21,13 @@
 		</script>
 	{% endif %}
 	<meta name="msvalidate.01" content="1BAC5E7A43C91E8FEDC06983E44F732B" />
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+	{% if site.snipcart_key %}
+		<script src="https://cdn.snipcart.com/scripts/2.0/snipcart.js" id="snipcart" data-api-key="{{ site.snipcart_key }}"></script>
+	{% endif %}
+	<link href="https://cdn.snipcart.com/themes/2.0/base/snipcart.min.css" type="text/css" rel="stylesheet" />
+
 	<script type="application/ld+json">
 	{ "@context": "http://schema.org",
 	 "@type": "organization",
@@ -36,8 +45,8 @@
 	    "areaServed": "IN"
 	  },{
 	    "@type": "ContactPoint",
+			"contactType": "sales",
 	    "telephone": "+91-94431-49095",
-	    "contactType": "sales",
 	    "areaServed": "IN"
 	  }]}
 	}
