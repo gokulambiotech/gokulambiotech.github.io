@@ -17,6 +17,7 @@ blurb: M.Sc, Computer Science
 ---
 ### About Me
 GokulamBioTech Website Admin, Computer Science Graduate and Tech lover.
-
+### Contact email
+For website related queries, please contact me on <a href="admin@gokulambiotech.com">admin@gokulambiotech.com</a>
 ### Social Network
 Catch me on social networking sites:
