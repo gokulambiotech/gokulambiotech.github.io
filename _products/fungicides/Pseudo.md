@@ -2,7 +2,7 @@
 title: KRISHI - Pseudo
 name: KRISHI - Pseudo
 link: Pseudo/
-pesticide: true
+fungicide: true
 new_window: false
 shortdescription: Controls foliar diseases.
 image_path: /images/krish-logo.jpg

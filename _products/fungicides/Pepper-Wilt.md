@@ -2,7 +2,7 @@
 title: KRISHI - Pepper Wilt Control Mix
 name: KRISHI - Pepper Wilt Control Mix
 link: Pepper-Wilt/
-pesticide: true
+fungicide: true
 new_window: false
 shortdescription: Controls wilt disease of black pepper
 image_path: /images/krish-logo.jpg

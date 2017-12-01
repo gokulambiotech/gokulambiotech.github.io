@@ -5,7 +5,7 @@
 - name: Products
   link: /products/
   new_window: false
-  highlight: true
+  highlight: false
   subfolder:
     - page: BioFertilizers
       url:  /products/fertilizers/
@@ -24,7 +24,7 @@
       shortdescription: KRISHI Bio-Enhancers
       image_path: /images/krish-logo.jpg
     - page: Fungicide
-      url:  /products/Fungicide/
+      url:  /products/fungicides/
       shortdescription: KRISHI Bio-Fungicides
       image_path: /images/krish-logo.jpg
     - page: BioPesticide

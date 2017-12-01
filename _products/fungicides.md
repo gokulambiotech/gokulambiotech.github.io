@@ -4,7 +4,7 @@ description:
 ---
 <ul class="staff">
 	{% for product in site.products %}
-    {% if product.fertilizer %}
+    {% if product.fungicide %}
 		<li>
       <!-- <div class="square-image"><img src="{% include relative-src.html src=product.image_path %}" alt="{{ product.name }}"/></div> -->
 			<div class="name">

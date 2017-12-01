@@ -2,7 +2,7 @@
 title: KRISHI - Tricho
 name: KRISHI - Tricho
 link: Tricho/
-pesticide: true
+fungicide: true
 new_window: false
 shortdescription: Controls soil borne pathogens.
 image_path: /images/krish-logo.jpg

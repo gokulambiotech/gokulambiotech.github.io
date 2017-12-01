@@ -12,7 +12,7 @@ disqus_shortname: https-gokulambiotech-github-io
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /Gokulamlogo.png
-description: Gokulam Biotech - India Farming Biotechnology Producer - Biofertilizer - Organic farming
+description: Gokulam Biotech - Organic Farming - Biotechnology Producer - Biofertilizer - Organic farming
 author:
   name: Dr. Gopinath Ramachandran
   email: gokulambiotech@gmail.com
@@ -36,7 +36,7 @@ collections:
     _hide_content: true
   certifications:
     output: true
-    _hide_content: true  
+    _hide_content: true
 
 paginate: 10
 paginate_path: "/blog/:num/:year/:title"

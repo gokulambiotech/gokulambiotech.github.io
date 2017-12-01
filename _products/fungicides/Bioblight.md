@@ -2,7 +2,7 @@
 title: KRISHI - Bioblight
 name: KRISHI - Bioblight
 link: Bioblight/
-pesticide: true
+fungicide: true
 new_window: false
 shortdescription: Controls bacterial diseases.
 image_path: /images/krish-logo.jpg

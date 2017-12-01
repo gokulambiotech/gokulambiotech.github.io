@@ -9,3 +9,6 @@ blurb: M.Sc. (Agric.)., Ph.D. (University of BC., Canada)
 ---
 ### About Me
 Founder of Gokulam Biotech
+
+#### Contact me
+Email: <a href="mailto:crk53kris@gmail.com">crk53kris@gmail.com</a>

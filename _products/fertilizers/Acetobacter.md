@@ -11,7 +11,7 @@ image_path: /images/krish-logo.jpg
 This is also referred to recently as Gluconacetobacter and is recommended as
 a biofertilizer for sugarcane. Similar to Azospirillum, it is capable of fixing atomspheric
 nitrogen, but it enters the plant throught the root and fixes nitrogen in the leaves and stem of
-sugarcane. CFU = 2 x 10 9 per ml.
+sugarcane. CFU = 2 x 10<sup>9</sup> per ml.
 
 ### Dosage
 250 ml per acre in adequate quantity of water or applied along with

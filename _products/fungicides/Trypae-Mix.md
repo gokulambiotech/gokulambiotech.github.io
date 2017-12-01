@@ -2,7 +2,7 @@
 title: KRISHI - Trypae Mix
 name: KRISHI - Trypae Mix
 link: Trypae-Mix/
-pesticide: true
+fungicide: true
 new_window: false
 shortdescription: For combined control of pathogens and nematodes.
 image_path: /images/krish-logo.jpg
