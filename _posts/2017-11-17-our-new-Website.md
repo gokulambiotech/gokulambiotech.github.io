@@ -4,6 +4,7 @@ title: The history of our new website
 categories:
   - marketing
 author_people: prabhakaran
+comments: true
 ---
 ## Our new Website
 Today, we have created our new website and with this we would like to reach all over the world.
