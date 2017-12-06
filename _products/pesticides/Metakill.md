@@ -1,5 +1,5 @@
 ---
-title: KRISHI - Metakill
+title: Liquid Biopesticides - Metakill
 name: KRISHI - Metakill
 link: Metakill/
 pesticide: true

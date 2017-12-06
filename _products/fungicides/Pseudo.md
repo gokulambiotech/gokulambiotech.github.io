@@ -1,5 +1,5 @@
 ---
-title: KRISHI - Pseudo
+title: Liquid Biofungicide - Pseudo
 name: KRISHI - Pseudo
 link: Pseudo/
 fungicide: true

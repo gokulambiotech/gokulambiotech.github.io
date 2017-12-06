@@ -1,5 +1,5 @@
 ---
-title: KRISHI - Tricho
+title: Liquid Biofungicide - Tricho
 name: KRISHI - Tricho
 link: Tricho/
 fungicide: true

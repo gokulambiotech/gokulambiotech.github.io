@@ -1,4 +1,5 @@
 ---
+title: Liquid Biofertilizer - Azospirillum
 name: KRISHI - Azospirillum
 fertilizer: true
 shortdescription: is a beneficial soil-borne bacterium capable of fixing considerable quantity of nitrogen in soil.

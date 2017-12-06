@@ -1,5 +1,5 @@
 ---
-title: KRISHI - Acetobacter
+title: Liquid Biofertilizer - Acetobacter
 name: KRISHI - Acetobacter
 link: Acetobacter/
 fertilizer: true

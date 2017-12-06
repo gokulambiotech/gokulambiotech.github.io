@@ -1,7 +1,7 @@
 - links:
   - name: Products
     link: /products/
-  - name: About
+  - name: About Us
     link: /about/
   - name: Contact
     link: /contact/
@@ -25,4 +25,8 @@
   - name: Google Plus
     link: https://plus.google.com/u/0/102737021041467434437
     social_icon: YouTube
+    new_window: true
+  - name: RSS
+    link: https://feeds.feedburner.com/Gokulambiotech
+    social_icon: RSS
     new_window: true

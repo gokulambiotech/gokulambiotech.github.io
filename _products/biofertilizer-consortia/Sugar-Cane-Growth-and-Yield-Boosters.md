@@ -1,4 +1,5 @@
 ---
+title: Liquid Biofertilizer-Consortia - Sugar Cane Growth and Yield Boosters
 name: KRISHI - Sugar Cane Growth and Yield Boosters
 biofertilizer-consortia: true
 shortdescription: a consortia of biofertilizers necessary for augmenting vegetative growth of mulberry

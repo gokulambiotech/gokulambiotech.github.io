@@ -1,4 +1,5 @@
 ---
+title: Liquid Biofertilizer-Consortia - Growth and Yield Booster (General)
 name: KRISHI - Growth and Yield Booster (General)
 biofertilizer-consortia: true
 shortdescription: Casuarina Bio-Booster contains a consortia of bioinoculants

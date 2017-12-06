@@ -1,5 +1,5 @@
 ---
-title: KRISHI - Biomite
+title: Liquid Biopesticides - Biomite
 name: KRISHI - Biomite
 link: Biomite/
 pesticide: true

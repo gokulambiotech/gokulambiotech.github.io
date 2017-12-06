@@ -1,5 +1,5 @@
 ---
-title: KRISHI - Beevicide
+title: Liquid Biopesticides - Beevicide
 name: KRISHI - Beevicide
 link: Beevicide/
 pesticide: true

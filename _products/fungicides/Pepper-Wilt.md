@@ -1,5 +1,5 @@
 ---
-title: KRISHI - Pepper Wilt Control Mix
+title: Liquid Biofungicide - Pepper Wilt Control Mix
 name: KRISHI - Pepper Wilt Control Mix
 link: Pepper-Wilt/
 fungicide: true

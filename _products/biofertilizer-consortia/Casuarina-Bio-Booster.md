@@ -1,4 +1,5 @@
 ---
+title: Liquid Biofertilizer-Consortia - Casuarina Bio-Booster
 name: KRISHI - Casuarina Bio-Booster
 biofertilizer-consortia: true
 shortdescription: Casuarina Bio-Booster contains a consortia of bioinoculants

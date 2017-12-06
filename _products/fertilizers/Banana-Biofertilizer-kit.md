@@ -1,4 +1,5 @@
 ---
+title: Liquid Biofertilizer - Banana BioFertilizer Kit
 name: KRISHI - Banana BioFertilizer Kit
 fertilizerkits: true
 image_path: /images/krish-logo.jpg

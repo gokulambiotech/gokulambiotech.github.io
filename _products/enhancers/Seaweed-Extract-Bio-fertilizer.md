@@ -1,4 +1,5 @@
 ---
+title: Liquid Bioenhancers - Seaweed Extract Bio-fertilizer
 name: KRISHI - Seaweed Extract Bio-fertilizer
 enhancers: true
 shortdescription: a consortia of biofertilizers necessary for augmenting vegetative growth of mulberry

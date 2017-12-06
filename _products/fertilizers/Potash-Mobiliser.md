@@ -1,4 +1,5 @@
 ---
+title: Liquid Biofertilizer - Potash Mobiliser
 name: KRISHI - Potash Mobiliser
 fertilizer: true
 image_path: /images/krish-logo.jpg

@@ -1,5 +1,5 @@
 ---
-title: KRISHI - Bioblight
+title: Liquid Biofungicide - Bioblight
 name: KRISHI - Bioblight
 link: Bioblight/
 fungicide: true

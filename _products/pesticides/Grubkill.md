@@ -1,5 +1,5 @@
 ---
-title: KRISHI - Grubkill
+title: Liquid Biopesticides - Grubkill
 name: KRISHI - Grubkill
 link: Grubkill/
 pesticide: true

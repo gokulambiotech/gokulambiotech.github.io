@@ -1,5 +1,5 @@
 ---
-title: KRISHI - Peelicide
+title: Liquid Biopesticides - Peelicide
 name: KRISHI - Peelicide
 link: Peelicide/
 pesticide: true

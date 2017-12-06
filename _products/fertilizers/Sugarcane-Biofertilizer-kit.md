@@ -1,4 +1,5 @@
 ---
+title: Liquid Biofertilizer - Sugarcane BioFertilizer Kit
 name: KRISHI - Sugarcane BioFertilizer Kit
 fertilizerkits: true
 image_path: /images/krish-logo.jpg

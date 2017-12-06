@@ -1,7 +1,7 @@
 # ----
 # Site
 
-title: GokulamBioTech
+title: Gokulam Biotech
 url: "https://gokulambiotech.com"
 baseurl:
 google_analytics_key: UA-109863125-1
@@ -12,12 +12,12 @@ disqus_shortname: gokulambiotech.disqus.com
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
 logo: /Gokulamlogo.png
-description: Organic Farming - Research and Development - Biotechnology Agricultural Producer - India
+description: Organic Farming - Research Based Biofertilizers Producer in India
 author:
   name: Dr. Gopinath Ramachandran
-  email: gokulambiotech@gmail.com
+  email: info@gokulambiotech.com
   twitter: GokulamBioTech
-  facebook: gokulambiotec
+  facebook: gokulambiotechpondy
 social:
   name: Gokulam Biotech
   links:

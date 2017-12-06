@@ -1,4 +1,5 @@
 ---
+title: Liquid Biofertilizer - Zinc Solubiliser
 name: KRISHI - Zinc Solubiliser
 fertilizer: true
 image_path: /images/krish-logo.jpg

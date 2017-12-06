@@ -7,27 +7,27 @@
   new_window: false
   highlight: false
   subfolder:
-    - page: BioFertilizers
+    - page: Liquid Bio-Fertilizers
       url:  /products/fertilizers/
       shortdescription: KRISHI Fertilizers
       image_path: /images/krish-logo.jpg
-    - page: BioComposting
+    - page: Liquid Bio-Composting
       url:  /products/biocomposting/
       shortdescription: KRISHI Biocomposting
       image_path: /images/krish-logo.jpg
-    - page: BioFertilizer-Consortia
+    - page: Liquid Bio-Fertilizer-Consortia
       url:  /products/biofertilizer-consortia/
       shortdescription: KRISHI-Biofertilizer-Consortia
       image_path: /images/krish-logo.jpg
-    - page: Enhancers
+    - page: Liquid Growth Enhancers
       url:  /products/enhancers/
       shortdescription: KRISHI Bio-Enhancers
       image_path: /images/krish-logo.jpg
-    - page: Fungicide
+    - page: Liquid Bio-Fungicide
       url:  /products/fungicides/
       shortdescription: KRISHI Bio-Fungicides
       image_path: /images/krish-logo.jpg
-    - page: BioPesticide
+    - page: Liquid/Talc Bio-Pesticides
       url:  /products/pesticides/
       shortdescription: KRISHI Bio-Pesticides
       image_path: /images/krish-logo.jpg

@@ -23,12 +23,11 @@ description: All products have minimum 1 year shelf-life.
 
             {% for entry in link.subfolder %}
               <li>
-                  <div class="small-image">
-                    <a href="{{ entry.url }}">
-                    <img src="{{ entry.image_path }}" alt="{{ entry.url }}"/>
-                    <div class="pname">{{ entry.page }}</div>
-                    </a>
-                  </div>
+								<a href="{{ entry.url }}">
+                  <div class="product-image"><img src="{{ entry.image_path }}" alt="{{ entry.url }}"/>
+										{{ entry.page }}
+									</div>
+								</a>
               </li>
             {% endfor %}
             </ul>

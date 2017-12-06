@@ -1,5 +1,5 @@
 ---
-title: Liquid Biofertilizer-consortia
+title: Liquid Biofertilizer-Consortia
 description:
 ---
 

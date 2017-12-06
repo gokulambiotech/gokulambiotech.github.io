@@ -1,5 +1,5 @@
 ---
-title: KRISHI - Bioter
+title: Liquid Biopesticides - Bioter
 name: KRISHI - Bioter
 link: Bioter/
 pesticide: true

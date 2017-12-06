@@ -1,5 +1,6 @@
 ---
-name: KRISHI - ROOTPLUS
+title: Liquid Bioenhancers - Rootplus
+name: KRISHI - Rootplus
 enhancers: true
 shortdescription: a consortia of biofertilizers necessary for augmenting vegetative growth of mulberry
 image_path: /images/krish-logo.jpg

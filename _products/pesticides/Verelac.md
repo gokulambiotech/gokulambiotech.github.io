@@ -1,5 +1,5 @@
 ---
-title: KRISHI - Verelac
+title: Liquid Biopesticides - Verelac
 name: KRISHI - Verelac
 link: Verelac/
 pesticide: true

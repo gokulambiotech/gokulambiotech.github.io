@@ -1,5 +1,5 @@
 ---
-title: KRISHI - Trypae Mix
+title: Liquid Biofungicide - Trypae Mix
 name: KRISHI - Trypae Mix
 link: Trypae-Mix/
 fungicide: true
