@@ -5,8 +5,8 @@
 	@include flex-flow(wrap);
 	text-align: center;
 	li {
-		padding: 30px 30px;
-		box-sizing: 2px border-box;
+		padding: 30px 40px;
+		box-sizing: border-box;
 		width: 100%;
 
 		@media #{$tablet} {
@@ -20,10 +20,10 @@
 	}
 
 	.product-image {
-		width: 120px;
+		width: 130px;
 		height: 100px;
 		font-size: 1.2em;
-		margin-top: 5px;
+		margin-top: 10px;
 			img {
 				width: 100px;
 				height: 100px;

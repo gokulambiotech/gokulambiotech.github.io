@@ -3,16 +3,20 @@ title: Certifications
 heading: Gokulam Biotech Certifications
 description: We care about quality and compliance
 ---
-<ul class="products">
-	{% for certs in site.certifications %}
-    <li>
-        <div class="medium-image">
-          <a href="{% include relative-src.html src=certs.link %}
-          " class="{{ class }}" {% if certs.new_window %}target="_blank"{% endif %}>
-          <img src="{% include relative-src.html src=certs.image_path %}" alt="{{certs.url}}"/>
-            {{ certs.name}}
-          </a>
-        </div>
-		</li>
-	{% endfor %}
-</ul>
+<div class="content">
+	<section class="page">
+		<ul class="products">
+			{% for certs in site.certifications %}
+		    <li>
+		        <div class="small-image">
+		          <a href="{% include relative-src.html src=certs.link %} " class="{{ class }}" {% if certs.new_window %} target="_blank"{% endif %}>
+		          <img src="{% include relative-src.html src=certs.image_path %}" alt="{{certs.url}}"/>
+							{{ certs.name}}
+		          <!-- <div class="pname">  {{ certs.name}} </div> -->
+		          </a>
+		        </div>
+				</li>
+			{% endfor %}
+		</ul>
+	</section>
+</div>

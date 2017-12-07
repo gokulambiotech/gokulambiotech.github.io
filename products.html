@@ -20,7 +20,6 @@ description: All products have minimum 1 year shelf-life.
       {% for link in site.data.navigation %}
         {% if link.subfolder[0] %}
             <ul class="products">
-
             {% for entry in link.subfolder %}
               <li>
 								<a href="{{ entry.url }}">
