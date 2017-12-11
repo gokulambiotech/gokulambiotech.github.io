@@ -10,8 +10,8 @@ offices:
     Mobile: +91-94431 49095
     email: info@gokulambiotech.com
     map:
-      latitude: 11.794330
-      longitude: 79.770279
+      latitude: 11.794470
+      longitude: 79.770466
       address: "36 Sri Ram Nagar, Cuddalore-Pondy Main Road, Kanniakoil, Pondicherry, 607 402, India"
       googledirection:
 
@@ -25,10 +25,11 @@ offices:
       address: "Opening Soon, North, India"
 
 map:
-  latitude: 11.7929453
-  longitude: 79.7668783
+  location: 11.794470, 79.770466
+  latitude: 11.794470
+  longitude: 79.770466
   address: "36 Sri Ram Nagar, Cuddalore-Pondy Main Road, Kanniakoil, Pondicherry, 607 402, India"
-  zoom: 15
+  zoom: 18
 ---
 <div class="plans">
 	{% for office in page.offices %}
@@ -39,7 +40,7 @@ map:
       <li>
         <h2>Address</h2> (Google Maps):
       <address>
-          <a target="_blank" href="https://www.google.com/maps/place/{{ page.map.address | url_encode }}">
+          <a target="_blank" href="https://maps.google.com/?q={{page.map.location}}">
           {{ office.map.address | replace: ", ", ", <br>" }}</a>
       </address>
 
