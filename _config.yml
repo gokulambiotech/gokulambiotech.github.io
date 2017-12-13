@@ -11,7 +11,7 @@ disqus_shortname: gokulambiotech.disqus.com
 # Google verification Links
 
 # Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
-logo: /Gokulamlogo.png
+logo: /images/Gokulamlogo.png
 description: Organic Farming - Research Based Biofertilizers Producer in India
 author:
   name: Dr. Gopinath Ramachandran
@@ -98,13 +98,6 @@ defaults:
     values:
       full_width: false
 
-  -
-    scope:
-      path: "certifications.html"
-    values:
-      layout: "page"
-      full_width: false
-
 jekyll-archives:
   enabled:
     - categories
@@ -122,7 +115,6 @@ exclude:
   - Gemfile.lock
   - README.md
   - LICENCE
-
 
 social_icons:
   - Twitter
