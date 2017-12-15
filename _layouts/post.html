@@ -11,7 +11,8 @@ layout: page
 		<div class="author">
 			{% assign author_id = page.author_people | prepend: "/people/" | append: "/" %}
 			{% assign author = site.people | where: "url", author_id | first %}
-			<h2>Author: <a href="{% include relative-src.html src=author_id %}" target="{{ author.name }}">{{ author.name }}</a></a></h2>
+			<p>Author: <a href="{% include relative-src.html src=author_id %}" target="{{ author.name }}">
+				{{ author.name }}</a></a></p>
 		</div>
 
 		<div class="blog-navigation">
