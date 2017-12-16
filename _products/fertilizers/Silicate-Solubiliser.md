@@ -2,6 +2,7 @@
 title: Liquid Biofertilizer - Silicate Solubiliser
 name: KRISHI - Silicate Solubiliser
 fertilizer: true
+type: fertilizer
 image_path: /images/krish-logo.jpg
 shortdescription: a bacterium capable of solubilising insoluble silica in soil is introduced to the farming community
 link: Silicate-Solubiliser/

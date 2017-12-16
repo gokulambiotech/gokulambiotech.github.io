@@ -3,6 +3,7 @@ title: Liquid Biopesticides - Bioter
 name: KRISHI - Bioter
 link: Bioter/
 pesticide: true
+type: pesticide
 new_window: false
 shortdescription:  For the control of mites.
 image_path: /images/krish-logo.jpg

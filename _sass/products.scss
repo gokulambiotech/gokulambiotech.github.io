@@ -3,31 +3,30 @@
 	list-style: none;
 	@extend %flexbox;
 	@include flex-flow(wrap);
-	text-align: center;
+	text-align: left;
 	li {
-		padding: 30px 40px;
+		padding: 30px 80px;
 		box-sizing: border-box;
 		width: 100%;
 
 		@media #{$tablet} {
-			@include flex(1, 1, 5%);
+			@include flex(1, 1, 45%);
 		}
 
 		@media #{$desktop} {
-			@include flex(1, 1, 2%);
+			@include flex(1, 1, 29%);
 		}
 
 	}
 
 	.product-image {
-		width: 130px;
-		height: 100px;
-		font-size: $pname;
-		margin-top: 10px;
+		width: 200px;
+		height: 200px;
+		margin-top: 20px;
 			img {
-				width: 100px;
-				height: 100px;
-				border-radius: 1px;
+				//width: 100px;
+				//height: 100px;
+				border-radius: 20px;
 			}
 
 		}

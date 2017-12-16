@@ -3,6 +3,7 @@ title: Liquid Biofungicide - Bioblight
 name: KRISHI - Bioblight
 link: Bioblight/
 fungicide: true
+type: fungicide
 new_window: false
 shortdescription: Controls bacterial diseases.
 image_path: /images/krish-logo.jpg

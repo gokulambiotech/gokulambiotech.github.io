@@ -2,6 +2,7 @@
 title: Liquid Biofertilizer - Potash Mobiliser
 name: KRISHI - Potash Mobiliser
 fertilizer: true
+type: fertilizer
 image_path: /images/krish-logo.jpg
 shortdescription: is a liquid biofertilizer containing pure cultures of naturally occurring soil-borne Potash Mobilising bacterium
 link: Potash-Mobiliser/

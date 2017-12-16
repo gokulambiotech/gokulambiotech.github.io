@@ -2,6 +2,7 @@
 title: Liquid Biofertilizer-Consortia - Coconut Bio-Booste
 name: KRISHI - Coconut Bio-Booste
 biofertilizer-consortia: true
+type: biofertilizer-consortia
 shortdescription: Casuarina Bio-Booster contains a consortia of bioinoculants
 image_path: /images/krish-logo.jpg
 link: Coconut-Bio-Booster/

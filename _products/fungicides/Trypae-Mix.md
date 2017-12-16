@@ -3,6 +3,7 @@ title: Liquid Biofungicide - Trypae Mix
 name: KRISHI - Trypae Mix
 link: Trypae-Mix/
 fungicide: true
+type: fungicide
 new_window: false
 shortdescription: For combined control of pathogens and nematodes.
 image_path: /images/krish-logo.jpg

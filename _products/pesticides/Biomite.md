@@ -3,6 +3,7 @@ title: Liquid Biopesticides - Biomite
 name: KRISHI - Biomite
 link: Biomite/
 pesticide: true
+type: pesticide
 new_window: false
 shortdescription:  For the control of mites.
 image_path: /images/krish-logo.jpg

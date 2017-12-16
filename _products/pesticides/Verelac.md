@@ -3,6 +3,7 @@ title: Liquid Biopesticides - Verelac
 name: KRISHI - Verelac
 link: Verelac/
 pesticide: true
+type: pesticide
 new_window: false
 shortdescription: For controlling soft bodied insects.
 image_path: /images/krish-logo.jpg

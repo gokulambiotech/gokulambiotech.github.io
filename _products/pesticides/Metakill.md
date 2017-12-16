@@ -3,6 +3,7 @@ title: Liquid Biopesticides - Metakill
 name: KRISHI - Metakill
 link: Metakill/
 pesticide: true
+type: pesticide
 new_window: false
 shortdescription: For control of hardbodied insects and borers.
 image_path: /images/krish-logo.jpg

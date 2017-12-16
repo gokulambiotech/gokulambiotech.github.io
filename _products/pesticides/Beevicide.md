@@ -3,6 +3,7 @@ title: Liquid Biopesticides - Beevicide
 name: KRISHI - Beevicide
 link: Beevicide/
 pesticide: true
+type: pesticide
 new_window: false
 shortdescription: For controlling hardbodied insects and borers.
 image_path: /images/krish-logo.jpg

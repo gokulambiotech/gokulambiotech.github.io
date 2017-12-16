@@ -2,6 +2,7 @@
 title: Liquid Biocomposting - Biocompost-Mixture (BCM)
 name: KRISHI - Biocompost-Mixture (BCM)
 composting: true
+type: composting
 shortdescription: BCM contains a consortia of fungal and bacterial cultures
 image_path: /images/krish-logo.jpg
 link: Biocompost-Mixture/

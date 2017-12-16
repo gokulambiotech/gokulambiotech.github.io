@@ -2,6 +2,7 @@
 title: Liquid Bioenhancers - Krishizyme
 name: KRISHI - Krishizyme
 enhancers: true
+type: enhancers
 shortdescription: a consortia of biofertilizers necessary for augmenting vegetative growth of mulberry
 image_path: /images/krish-logo.jpg
 link: Krishizyme/

@@ -24,27 +24,47 @@ description: All products have minimum 1 year shelf-life.
             {% for entry in link.subfolder %}
               <li>
 								<a href="{{ entry.url }}">
-                  <div class="product-image"><img src="{{ entry.image_path }}" alt="{{ entry.url }}"/>
-										{{ entry.page }}
-									</div>
+                  <div class="product-image"><img src="{{ entry.image_path }}" alt="{{ entry.url }}"/></div>
 								</a>
+									<div class="name"><a target="_blank" href="{% include relative-src.html src=entry.url %}">{{ entry.page }}</a></div>
               </li>
             {% endfor %}
             </ul>
         {% endif %}
       {% endfor %}
     </div>
+
 		<div class="text-container">
-			<div>
-				<a href="/download/Gokulam-eBook.pdf">
+			<a href="/download/Gokulam-eBook.pdf">
 				<img src="/images/products/gokulambiotechproducts.png"/>
 			</a>
-			</div>
 		</div>
-	</section>
+		<div class="productplans">
+		{% for link in site.data.navigation %}
+		{% if link.subfolder[0] %}
+		{% for entry in link.subfolder %}
+				<ul class="plan">
+				<li style="background: #8e8e8e">
+					<h3>{{ entry.page }}</h3>
+					{% for product in site.products %}
+					{% if product.type == entry.type %}
+					<li>
+						<a href="{% include relative-src.html src=product.url %}"
+						 class="{{ class }}" {% if product.new_window %} target="_blank" {% endif %}>
+		          {{ product.name}}
+		        </a>
+					</li>
+						{% endif %}
+					{% endfor %}
+				</li>
+			</ul>
+			{% endfor %}
+			{% endif %}
+		{% endfor %}
+    </div>
+</section>
 
 <section class="bottom-cta">
   <h2 class="editable"><strong>Gokulam Biotech</strong> - Comprehensive Product List</h2>
   <div class="button alt"><a href="/download/Gokulam-eBook.pdf">Products Book</a></div>
 </section>
-</div>

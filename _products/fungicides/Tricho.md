@@ -3,6 +3,7 @@ title: Liquid Biofungicide - Tricho
 name: KRISHI - Tricho
 link: Tricho/
 fungicide: true
+type: fungicide
 new_window: false
 shortdescription: Controls soil borne pathogens.
 image_path: /images/krish-logo.jpg

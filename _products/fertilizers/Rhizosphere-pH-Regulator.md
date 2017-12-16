@@ -2,6 +2,7 @@
 title: Liquid Biofertilizer - Rhizosphere pH Regulator
 name: KRISHI - Rhizosphere pH Regulator
 fertilizer: true
+type: fertilizer
 image_path: /images/krish-logo.jpg
 shortdescription: is a unique product developed for soil having an alkaline pH range.
 link: Rhizosphere-pH-Regulator/

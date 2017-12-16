@@ -2,6 +2,7 @@
 title: Liquid Biocomposting - Compost-Enrichment-Culture
 name: KRISHI - Compost-Enrichment-Culture
 composting: true
+type: composting
 shortdescription: BCM contains a consortia of fungal and bacterial cultures
 image_path: /images/krish-logo.jpg
 link: Compost-Enrichment-Culture/

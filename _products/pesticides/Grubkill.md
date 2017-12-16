@@ -3,6 +3,7 @@ title: Liquid Biopesticides - Grubkill
 name: KRISHI - Grubkill
 link: Grubkill/
 pesticide: true
+type: pesticide
 new_window: false
 shortdescription: For control of hardbodied insects and borers.
 image_path: /images/krish-logo.jpg

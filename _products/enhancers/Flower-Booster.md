@@ -2,6 +2,7 @@
 title: Liquid Bioenhancers - Flower-Booster
 name: KRISHI - Flower-Booster
 enhancers: true
+type: enhancers
 shortdescription: a consortia of biofertilizers necessary for augmenting vegetative growth of mulberry
 image_path: /images/krish-logo.jpg
 link: Flower-Booster/

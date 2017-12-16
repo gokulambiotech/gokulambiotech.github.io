@@ -3,6 +3,7 @@ title: Liquid Biopesticides - Peelicide
 name: KRISHI - Peelicide
 link: Peelicide/
 pesticide: true
+type: pesticide
 new_window: false
 shortdescription:  For control of nematodes.
 image_path: /images/krish-logo.jpg

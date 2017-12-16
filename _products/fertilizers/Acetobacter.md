@@ -3,6 +3,7 @@ title: Liquid Biofertilizer - Acetobacter
 name: KRISHI - Acetobacter
 link: Acetobacter/
 fertilizer: true
+type: fertilizer
 new_window: false
 shortdescription: also referred to recently as Gluconacetobacter and is recommended as a biofertilizer for sugarcane.
 image_path: /images/krish-logo.jpg

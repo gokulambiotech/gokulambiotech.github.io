@@ -3,6 +3,7 @@ title: Liquid Biofungicide - Pseudo
 name: KRISHI - Pseudo
 link: Pseudo/
 fungicide: true
+type: fungicide
 new_window: false
 shortdescription: Controls foliar diseases.
 image_path: /images/krish-logo.jpg
