@@ -7,6 +7,26 @@
 
 Our Live website is at [[Gokulambiotech Website](https://www.gokulambiotech.com)]
 
+# Notes
+This website is built based on Jekyll static webspages https://jekyllrb.com/.
+
+## Installation in Ubuntu
+
+```
+ - sudo apt-get install gem
+ - sudo apt-get install ruby-dev
+ - gem install jekyll bundler --user
+ - bundler install
+ - bundler update jekyll
+```
+### Firefox dev plugin
+Google Analytis blocker plugin will block page visits.
+
+## Run the local site
+
+```
+ - bundle exec jekyll serve
+```
 ### Resize your images
 
 ´´´
