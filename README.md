@@ -32,3 +32,10 @@ Google Analytis blocker plugin will block page visits.
 ´´´
 convert biofarm.jpg -sampling-factor 4:2:0 -strip -quality 85 -interlace JPEG -colorspace sRGB -resize 50% biofarm.jpg
 ´´´
+
+Renaming Spaces into _
+
+```
+$ for f in *\ *; do mv "$f" "${f// /_}"; done
+
+```
