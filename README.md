@@ -15,6 +15,7 @@ This website is built based on Jekyll static webspages https://jekyllrb.com/.
 ```
  - sudo apt-get install gem
  - sudo apt-get install ruby-dev
+ - set $RUBY=/home/pksec/.gem/ruby/2.3.0/bin
  - gem install jekyll bundler --user
  - bundler install
  - bundler update jekyll
