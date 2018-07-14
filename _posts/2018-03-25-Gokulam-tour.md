@@ -2,7 +2,7 @@
 date: 2018-03-25
 title: Gokulam Biotech tour with our Managing Director
 categories:
-  - Managing Director
+  - Research-and-Development
 author_people: prabhakaran
 comments: false
 ---
