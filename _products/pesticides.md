@@ -9,9 +9,11 @@ description:
 		<li>
       <!-- <div class="square-image"><img src="{% include relative-src.html src=product.image_path %}" alt="{{ product.name }}"/></div> -->
 			<div class="name">
-        <a href="{% include relative-src.html src=product.link %}
-        " class="{{ class }}" {% if product.new_window %}target="_blank"{% endif %}>
-          {{ product.name}}
+        <a href="{% include relative-src.html src=product.link %} " class="{{ class }}">
+					{% if product.highlight %}
+						<mark>New:</mark>
+					{% endif %}
+					{{ product.name}}
         </a>
         </div>
 			<div class="position">{{ product.shortdescription}}</div>

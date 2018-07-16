@@ -4,7 +4,8 @@ heading: Get in touch with us today
 description: We'd love to help you improve your Farming and Revenue.
 
 offices:
-  - name: Head Quarters
+  - type: Head Quarters - South India
+    name: Gokulam Biotech
     color: "#4a4a4a"
     Landline: +91-413-2611455
     Mobile: +91-94431 49095
@@ -15,14 +16,15 @@ offices:
       address: "36 Sri Ram Nagar, Cuddalore-Pondy Main Road, Kanniakoil, Pondicherry, 607 402, India"
       googledirection:
 
-  - name: Sales Office
+  - type: Distributor - North India
+    name: Nature Care Fertilizers Pvt. Ltd
     color: "#8e8e8e"
-    email: admin@gokulambiotech.com
-    Landline: +91-413-2611455
+    email: nctvita@gmail.com
+    Landline: +91-02347-273732
     map:
-      latitude: 19.077655
-      longitude: 72.881175
-      address: "Opening Soon, North, India"
+      latitude: 17.275434
+      longitude: 74.5089323
+      address: "No: 224, Harale Mala, Opp. Reliance Petrol Pump, Karad Road, Vita"
 
 map:
   location: 11.794470, 79.770466
@@ -35,12 +37,13 @@ map:
 	{% for office in page.offices %}
 		<ul class="plan">
 			<li style="background: {{ office.color }}">
-				<h3>{{ office.name }}</h3>
+				<h3>{{ office.type }}</h3>
 			</li>
       <li>
-        <h2>Address</h2> (Google Maps):
+        <h2>{{ office.name }}</h2>
       <address>
-          <a target="_blank" href="https://maps.google.com/?q={{page.map.location}}">
+          <!-- <a target="_blank" href="https://maps.google.com/?q={{page.map.location}}"> -->
+          <a target="_blank" href="https://maps.google.com/?q={{office.name}}">
           {{ office.map.address | replace: ", ", ", <br>" }}</a>
       </address>
 
@@ -71,7 +74,8 @@ window.mapData = {{ page.map | jsonify }};
         });
         var marker = new google.maps.Marker({
           position: uluru,
-          map: map1
+          map: map1,
+          title: "Gokulam Biotech"
         });
       }
 </script>
