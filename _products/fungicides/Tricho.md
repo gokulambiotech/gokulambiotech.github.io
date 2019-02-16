@@ -1,6 +1,6 @@
 ---
 title: Liquid Biofungicide - Tricho
-name: KRISHI - Tricho
+name: KRISHI - Trichoderma
 link: Tricho/
 fungicide: true
 type: fungicide
@@ -18,3 +18,13 @@ Pepper, Cardamom, Ginger, Turmeric, Banana, Cabbage and all vegetables, Potato, 
 
 ### Dosage and directions for use
 Krishi-Tricho should be used at the rate of 250 ml per acre dissolved in required quantity of water or mixed with well-decomposed organic manure.
+
+#### Certifications
+Government of India - Directorate of Plant Protection, Quarantine & Storage.
+
+LICENCES UNDER SECTION 9(3B) OF THE INSECTICIDES ACT, 1968
+
+1. Trichoderma viride - 1.5 %
+
+    - Strain No. IIHR-TV-5, Accession No. ITCC 6889
+    - Registration No: CIR-1698/2015(354)-Trichoderma viride (WP)-377
