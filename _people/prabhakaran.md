@@ -13,10 +13,10 @@ social:
     social_icon: Facebook
     new_window: true    
 
-blurb: M.Sc, Computer Science
+blurb: Dr. Ing, Computer Science (Germany)
 ---
 ### About Me
-GokulamBioTech Website Admin, Computer Science Graduate and Tech lover.
+GokulamBioTech Website Admin and Tech lover.
 ### Contact email
 For website related queries, please contact me on <a href="admin@gokulambiotech.com">admin@gokulambiotech.com</a>
 ### Social Network

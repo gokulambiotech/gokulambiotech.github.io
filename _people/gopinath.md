@@ -1,6 +1,6 @@
 ---
 name: Dr. R. Gopinath, Ph.D
-position: Managing Director
+position: Managing Partner
 link: gopinath/
 image_path: /images/people/gopinath.jpg
 twitter:
