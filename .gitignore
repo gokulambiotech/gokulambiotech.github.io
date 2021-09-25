@@ -4,3 +4,4 @@ _site/
 ./images/gokulam-orig-pics/
 .jekyll-cache/
 .vendor/
+.DS_Store
