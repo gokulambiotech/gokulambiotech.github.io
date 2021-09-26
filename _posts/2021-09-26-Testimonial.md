@@ -9,7 +9,7 @@ comments: true
 
 ## BioBlight Testimonial
 
-We are happy to share a testimony of our product written by one of our customers. You will find the full version of the PDF report. We thank Mr. Chetan Nandhan for writing this testimonial.
+We are happy to share a testimony of our product written by one of our customers. Download the [PDF report](/download/BioBlight-testimonial.pdf). We thank Mr. Chetan Nandhan for writing this testimonial.
 
 <object data="/download/BioBlight-testimonial.pdf" width="1000" height="400" type='application/pdf'/>
 
