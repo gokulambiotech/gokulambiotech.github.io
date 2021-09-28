@@ -134,3 +134,13 @@ _comments:
   highlight: Emphasis the text
   color: The background colour used in the plan name and call to action.
   new_window: Open link in new window
+
+# Custom headers
+webrick:
+  headers:
+    Content-Security-Policy: default-src 'none'; script-src 'self'; connect-src 'self'; img-src 'self'; style-src 'self';
+
+liquid:
+  error_mode: strict
+  strict_variables: true
+  strict_filters: true

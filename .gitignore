@@ -4,4 +4,7 @@ _site/
 ./images/gokulam-orig-pics/
 .jekyll-cache/
 .vendor/
+vendor/
+.bundle/
 .DS_Store
+*.code-workspace

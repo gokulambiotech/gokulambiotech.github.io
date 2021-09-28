@@ -49,6 +49,7 @@
 	  }]}
 	}
 	</script>
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
 </head>
 	<body>
 		<header>
@@ -83,5 +84,27 @@
 				return false;
 			};
 		</script>
+	
+	<script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+		<script>
+		window.cookieconsent.initialise({
+		"palette": {
+			"popup": {
+			"background": "#216942",
+			"text": "#b2d192"
+			},
+			"button": {
+			"background": "#afed71"
+			}
+		},
+		"type": "opt-in",
+		"content": {
+			"message": "This website uses cookies to offer best services for our customer. We respect your privacy - You can opt out of using cookies.",
+			"dismiss": "Got it!",
+			"allow": "Allow Cookies",
+			"href": "https://www.gokulambiotech.com/terms"
+		}
+		});
+	</script>
 	</body>
 </html>
