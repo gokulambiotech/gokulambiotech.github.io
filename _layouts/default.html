@@ -8,24 +8,6 @@
 	<link rel="icon" type="image/png" href="{{ site.baseurl }}/icon.png">
 	{% seo %}
 	{% feed_meta %}
-	{% if jekyll.environment == 'production' and site.google_analytics_key != '' %}
-		<style>.async-hide { opacity: 0 !important} </style>
-		<script>(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;
-			h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
-			(a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
-			})(window,document.documentElement,'async-hide','dataLayer',4000,
-			{'GTM-K3G22JL':true});
-		</script>
-		<script>
-			(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){
-			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-		})(window,document,"script","//www.google-analytics.com/analytics.js","ga");
-			ga("create", "{{ site.google_analytics_key }}", "auto");
-			ga('require', 'GTM-K3G22JL');
-			ga("send", "pageview");
-		</script>
-	{% endif %}
 	<script type="application/ld+json">
 	{ "@context": "http://schema.org",
 	 "@type": "organization",
@@ -86,8 +68,9 @@
 		</script>
 	
 	<script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
-		<script>
-		window.cookieconsent.initialise({
+	<script>
+		const cc = window.cookieconsent;
+		cc.initialise({
 		"palette": {
 			"popup": {
 			"background": "#216942",
@@ -98,13 +81,46 @@
 			}
 		},
 		"type": "opt-in",
+		"revokable":"true",
 		"content": {
-			"message": "This website uses cookies to offer best services for our customer. We respect your privacy - You can opt out of using cookies.",
+			"message": "We respect your privacy - You can opt out of using cookies. This website uses google analytics cookies to offer best services for our customers.",
 			"dismiss": "Got it!",
 			"allow": "Allow Cookies",
 			"href": "https://www.gokulambiotech.com/terms"
+		},
+		"cookie":{
+			"name": "cookie_consent-gokulambiotech.com",
+			"secure": "false"
 		}
-		});
+		});		
 	</script>
+	{% if jekyll.environment == 'production' and site.google_analytics_key != '' %}
+	<script>
+		if (document.cookie.split(';').some((item) => item.trim().startsWith('cookie_consent-gokulambiotech.com=allow'))) {
+			// Set Google Analytics Cookies if consent is allowed
+			(function(a,s,y,n,c,h,i,d,e){s.className+=' '+y;h.start=1*new Date;
+			h.end=i=function(){s.className=s.className.replace(RegExp(' ?'+y),'')};
+			(a[n]=a[n]||[]).hide=h;setTimeout(function(){i();h.end=null},c);h.timeout=c;
+			})(window,document.documentElement,'async-hide','dataLayer',4000,
+			{'GTM-K3G22JL':true});
+		
+			(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,"script","//www.google-analytics.com/analytics.js","ga");
+			ga("create", "{{ site.google_analytics_key }}", "auto");
+			ga('require', 'GTM-K3G22JL');
+			ga("send", "pageview");
+			// Google Analytics Stops
+			// https://developers.google.com/analytics/devguides/collection/analyticsjs/user-opt-out
+			window['ga-disable-{{ site.google_analytics_key }}'] = false;
+			}
+		if (document.cookie.split(';').some((item) => item.trim().startsWith('cookie_consent-gokulambiotech.com=deny'))) {
+			// Disable Google Analytics Cookies if consent is denied
+			// https://developers.google.com/analytics/devguides/collection/analyticsjs/user-opt-out
+			window['ga-disable-{{ site.google_analytics_key }}'] = true;
+		}
+	</script>
+	{% endif %}
 	</body>
 </html>
