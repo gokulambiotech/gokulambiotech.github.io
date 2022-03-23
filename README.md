@@ -19,6 +19,17 @@ This website is built based on Jekyll static webspages https://jekyllrb.com/.
  - gem install jekyll bundler --user
  - bundler install
  - bundler update jekyll
+ - bundle exec jekyll serve
+```
+## Installatio on Mac M1
+
+```
+ - gem install bundler:2.2.28 --user
+ - bundle config set --local path 'vendor/bundle'
+ - bundle config build.ffi --enable-libffi-alloc
+ - bundler install
+ - bundle update
+ - bundle exec jekyll serve
 ```
 ### Firefox dev plugin
 Google Analytis blocker plugin will block page visits.
