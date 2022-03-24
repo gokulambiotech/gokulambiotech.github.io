@@ -1,7 +1,3 @@
-- name: About Us
-  link: /about/
-  new_window: false
-  highlight: false
 - name: Products
   link: /products/
   new_window: false
@@ -37,16 +33,12 @@
       type: pesticide
       shortdescription: KRISHI Bio-Pesticides
       image_path: /images/krish-logo.jpg
-- name: Certifications
-  link: /certifications/
+- name: OnlineShop
+  link: /shop/
   new_window: false
-  highlight: false
-- name: Blog
-  link: /blog/
-  new_window: false
-  highlight: false
-- name: Our Team
-  link: /people/
+  highlight: true
+- name: FAQ
+  link: /faq/
   new_window: false
   highlight: false
 - name: Contact

@@ -6,6 +6,13 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="{{ site.baseurl }}/css/screen.css">
 	<link rel="icon" type="image/png" href="{{ site.baseurl }}/icon.png">
+
+	{% if site.snipcart_key %}
+	<script src="https://cdn.snipcart.com/scripts/2.0/snipcart.js" id="snipcart" data-api-key="{{ site.snipcart_key }}"></script>
+	<link href="https://cdn.snipcart.com/themes/2.0/base/snipcart.min.css" type="text/css" rel="stylesheet">
+	{% endif %}
+
+	
 	{% seo %}
 	{% feed_meta %}
 	<script type="application/ld+json">

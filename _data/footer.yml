@@ -1,17 +1,17 @@
 - links:
-  - name: Products
-    link: /products/
   - name: About Us
     link: /about/
+  - name: Our Team
+    link: /people/
   - name: Contact
     link: /contact/
 - links:
   - name: Blog
     link: /blog/
-  - name: Careers
-    link: /careers/
   - name: Certifications
     link: /certifications/
+  - name: Careers
+    link: /careers/
 - links:
   - name: Twitter
     link: https://twitter.com/GokulamBioTech
@@ -20,11 +20,6 @@
   - name: Facebook
     link: https://www.facebook.com/gokulambiotechpondy
     social_icon: Facebook
-    new_window: true
-- links:
-  - name: Google Plus
-    link: https://plus.google.com/u/0/102737021041467434437
-    social_icon: YouTube
     new_window: true
   - name: RSS
     link: /feed.xml
