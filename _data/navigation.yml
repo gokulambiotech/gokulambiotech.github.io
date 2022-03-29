@@ -36,7 +36,8 @@
 - name: OnlineShop
   link: /shop/
   new_window: false
-  highlight: true
+  highlight: false
+  _icon: add_shopping_cart
 - name: FAQ
   link: /faq/
   new_window: false

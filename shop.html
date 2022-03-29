@@ -1,0 +1,28 @@
+---
+title: Find Your Gokulam Product
+layout: default
+---
+
+{% for product in site.products %}
+{% if product.price %}
+{% if product.shop %}
+<div class="content">
+	<section class="page">
+		<div class="container">
+			<div class="product-container">
+				{% include product-styles.html product=product %}
+				<div class="product-details" id="add">
+					<h3>{{ product.name }}</h3>
+					{{ product.description_markdown | markdownify }}
+
+					<h4> {{product.sizes}} = ₹{{ product.price }}</h4>
+					<p>*Includes normal shipping cost.</p>
+					<div class="button">{% include snipcart-button.html product=product %}</div>
+				</div>
+			</div>
+		</div>
+	</section>
+</div>
+{% endif %}
+{% endif %}
+{% endfor %}

@@ -35,9 +35,11 @@ collections:
   products:
     output: true
     _hide_content: true
+    _icon: shopping_cart
   certifications:
     output: true
     _hide_content: true
+    _icon: shopping_cart
 
 paginate: 5
 paginate_path: "/blog/:num/:year/:title"
