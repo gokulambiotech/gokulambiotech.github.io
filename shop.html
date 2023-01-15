@@ -12,12 +12,11 @@ layout: default
 			<div class="product-container">
 				{% include product-styles.html product=product %}
 				<div class="product-details" id="add">
-					<h3>{{ product.name }}</h3>
+					<h3><a href="{{ product.url }}">{{ product.name }}</a></h3>
 					{{ product.description_markdown | markdownify }}
-
-					<h4> {{product.sizes}} = ₹{{ product.price }}</h4>
-					<p>*Includes normal shipping cost.</p>
-					<div class="button">{% include snipcart-button.html product=product %}</div>
+					{% for size in product.sizes %}
+						<h4> {{size.type}} = ₹{{ size.price }} - {% include snipcart-button.html product=product size=size %}</h4>
+					{% endfor %}
 				</div>
 			</div>
 		</div>

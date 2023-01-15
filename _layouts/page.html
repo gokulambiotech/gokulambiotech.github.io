@@ -20,15 +20,15 @@ layout: default
 <div class="content">
 	<section class="page">
 		<div class="container">
-			<h2>Add this product to your shopping cart</h2>
+			<h2>Buy this product via our Online Shop</h2>
 			<div class="product-container">
 				{% include product-styles.html product=page %}
 				<div class="product-details" id="add">
 					<h3>{{ page.name }}</h3>
 					{{ page.description_markdown | markdownify }}
-
-					<h4> {{page.sizes}} = ₹{{ page.price }}</h4> <p>*Includes normal shipping cost.</p>
-					<div class="button">{% include snipcart-button.html product=page %}</div>
+					{% for size in page.sizes %}
+						<h4> {{size.type}} = ₹{{ size.price }} - {% include snipcart-button.html product=page size=size %}</h4>
+					{% endfor %}
 				</div>
 			</div>
 		</div>
