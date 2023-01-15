@@ -29,8 +29,10 @@ This website is built based on Jekyll static webspages https://jekyllrb.com/.
  - bundle config build.ffi --enable-libffi-alloc
  - bundler install
  - bundle update
+ - bundle config set force_ruby_platform true
  - bundle exec jekyll serve
 ```
+
 ### Firefox dev plugin
 Google Analytis blocker plugin will block page visits.
 
