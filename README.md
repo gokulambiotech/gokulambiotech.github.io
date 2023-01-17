@@ -53,3 +53,7 @@ Renaming Spaces into _
 $ for f in *\ *; do mv "$f" "${f// /_}"; done
 
 ```
+
+## Taxes based on product group
+- Fertilizers 5%
+- Pesticides 12%
