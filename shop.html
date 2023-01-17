@@ -2,13 +2,12 @@
 title: Find Your Gokulam Product
 layout: default
 ---
-
-{% for product in site.products %}
-{% if product.shop %}
-
 <div class="content">
+
 	<section class="page">
 		<div class="box">
+			{% for product in site.products %}
+			{% if product.shop %}
 			<div class="row">
 				<div class="col-xs-1">
 					<!-- empty to center content -->
@@ -27,9 +26,27 @@ layout: default
 					<!-- empty to center content -->
 				</div>
 			</div>
+			{% endif %}
+			{% endfor %}
 		</div>
 	</section>
-</div>
 
-{% endif %}
-{% endfor %}
+	<div class="row">
+		<div class="col-xs-1">
+			<!-- empty to center content -->
+		</div>
+		<div class="col-xs-8">
+			Payment: After you order, we will contact you via your email or contact number for processing the payment.
+			<br>
+			<br>
+			<br>
+		</div>
+
+		<div class="col-xs-1">
+			<!-- empty to center content -->
+		</div>
+	</div>
+	<div class="row"></div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="{{ site.baseurl }}/js/application.js" type="text/javascript"></script>
