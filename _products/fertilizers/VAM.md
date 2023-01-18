@@ -13,10 +13,6 @@ description_markdown:
 
 shop: true
 sku: krishi-vam
-price: 600
-variants:
-  - 3kg
-  - 5kg[+200]
 sizes:
   - type: 3kg
     weight: 3000

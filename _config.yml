@@ -91,6 +91,11 @@ defaults:
       layout: "default"
   -
     scope:
+      path: "search.html"
+    values:
+      layout: "default"
+  -
+    scope:
       path: "contact"
     values:
       full_width: false

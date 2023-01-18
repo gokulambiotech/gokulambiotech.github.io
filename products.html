@@ -51,8 +51,8 @@ description: All products have minimum 1 year shelf-life.
 						<mark>New:</mark>
 						{% endif %}
 						{{ product.name}}
-						{% if product.price %}
-						: ₹ {{ product.price }}
+						{% if product.shop %}
+						<mark class="online"> - Onlineshop</mark>
 						{% endif %}
 					</a>
 				</li>
