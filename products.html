@@ -8,62 +8,66 @@ description: All products have minimum 1 year shelf-life.
 	<section class="page">
 		<div class="container {% if page.full_width %}max-container{% endif %}">
 			{% if page.heading %}
-				<h2>{{ page.heading }}</h2>
+			<h2>{{ page.heading }}</h2>
 			{% elsif page.title and page.layout != 'archive' %}
-				<h2>{{ page.title }}</h2>
+			<h2>{{ page.title }}</h2>
 			{% endif %}
 			{% if page.description %}
-				<p class="subtext">{{ page.description }}</p>
+			<p class="subtext">{{ page.description }}</p>
 			{% endif %}
 		</div>
 
-  <div class="container">
-      {% for link in site.data.navigation %}
-        {% if link.subfolder[0] %}
-            <ul class="products">
-            {% for entry in link.subfolder %}
-              <li>
-								<a href="{{ entry.url }}">
-                  <div class="product-image"><img src="{{ entry.image_path }}" alt="{{ entry.url }}"/></div>
-								</a>
-									<div class="name"><a target="_blank" href="{% include relative-src.html src=entry.url %}">{{ entry.page }}</a></div>
-              </li>
-            {% endfor %}
-            </ul>
-        {% endif %}
-      {% endfor %}
-    </div>
+		<div class="container">
+			{% for link in site.data.navigation %}
+			{% if link.subfolder[0] %}
+			<ul class="products">
+				{% for entry in link.subfolder %}
+				<li>
+					<a href="{{ entry.url }}">
+						<div class="product-image"><img src="{{ entry.image_path }}" alt="{{ entry.url }}" /></div>
+					</a>
+					<div class="name"><a target="_blank" href="{% include relative-src.html src=entry.url %}">{{
+							entry.page }}</a></div>
+				</li>
+				{% endfor %}
+			</ul>
+			{% endif %}
+			{% endfor %}
+		</div>
 
 		<div class="productplans">
-		{% for link in site.data.navigation %}
-		{% if link.subfolder[0] %}
-		{% for entry in link.subfolder %}
-				<ul class="plan">
+			{% for link in site.data.navigation %}
+			{% if link.subfolder[0] %}
+			{% for entry in link.subfolder %}
+			<ul class="plan">
 				<li style="background: #298e0c">
 					<h3>{{ entry.page }}</h3>
 					{% for product in site.products %}
 					{% if product.type == entry.type %}
-					<li>
-						<a href="{% include relative-src.html src=product.url %}"
-						 class="{{ class }}" {% if product.new_window %} target="_blank" {% endif %}>
-						 	{% if product.highlight %}
-	 						<mark>New:</mark>
-	 						{% endif %}
-		          {{ product.name}}
-		        </a>
-					</li>
+				<li>
+					<a href="{% include relative-src.html src=product.url %}" class="{{ class }}" {% if
+						product.new_window %} target="_blank" {% endif %}>
+						{% if product.highlight %}
+						<mark>New:</mark>
 						{% endif %}
-					{% endfor %}
+						{{ product.name}}
+						{% if product.shop %}
+						<mark class="online"> - Onlineshop</mark>
+						{% endif %}
+					</a>
+				</li>
+				{% endif %}
+				{% endfor %}
 				</li>
 			</ul>
 			{% endfor %}
 			{% endif %}
-		{% endfor %}
-    </div>
-</section>
+			{% endfor %}
+		</div>
+	</section>
 
-<section class="bottom-cta">
-  <h2 class="editable"><strong>Gokulam Biotech</strong> - Comprehensive Product List</h2>
-  <div class="button alt"><a href="/download/Gokulam-eBook.pdf">Download Products Booklet</a></div>
-</section>
+	<section class="bottom-cta">
+		<h2 class="editable"><strong>Gokulam Biotech</strong> - Comprehensive Product List</h2>
+		<div class="button alt"><a href="/download/Gokulam-eBook.pdf">Download Products Booklet</a></div>
+	</section>
 </div>

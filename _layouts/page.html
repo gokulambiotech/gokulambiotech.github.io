@@ -14,5 +14,28 @@ layout: default
 			{% endif %}
 			{{ content }}
 		</div>
-	</section>
+	
+	{% if page.shop %}
+	<div class="box">
+		<div class="row">
+			<div class="col-xs-1">
+				<!-- empty to center content -->
+			</div>
+			<div class="col-xs-3">
+				{% include product-styles.html product=page %}
+			</div>
+			<div class="col-xs">
+				<h3><a href="{{ page.url }}">{{ page.name }}</a></h3>
+				Note: Click the link above for detailed information on the product.
+				{% for size in page.sizes %}
+				{% include snipcart-button.html product=page size=size %}
+				{% endfor %}
+			</div>
+			<div class="col-xs-1">
+				<!-- empty to center content -->
+			</div>
+		</div>
+	</div>
+	{% endif %}
+</section>
 </div>

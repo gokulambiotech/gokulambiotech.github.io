@@ -1,0 +1,29 @@
+<div class="box">	
+	<div class="row">
+		<div class="col-xs">
+			<h4> {{size.type}} = ₹{{ size.price }} </h4>
+		</div>
+		<div class="col-xs">
+			<label for="{{ include.size.sku }}-qty">Quantity:</label> 
+		</div>
+		<div class="col-xs">
+			<input class="input" type="number" id="{{ include.size.sku }}-qty" class="qty" min="1" value="1" price="{{include.size.price }}"/>
+		<!-- </div>
+		<div class="col-xs"> -->
+			<button class="snipcart-add-item buy-button"
+			data-item-name="{{ include.size.sku }}"
+			data-item-quantity="1"
+			data-item-id="{{ include.size.sku }}"
+			data-item-image="{{ include.product.styles.first.image }}"
+			data-item-description="{{ include.product.description }}"
+			data-item-url="{{ include.product.url }}"
+			data-item-price="{{include.size.price }}"
+			data-item-weight="{{include.size.weight}}"
+			>
+			Add to cart (Total: INR {{ include.size.price }})
+			</button>
+		</div>	
+	</div>
+	<br>
+</div>
+

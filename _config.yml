@@ -7,6 +7,7 @@ baseurl:
 google_analytics_key: UA-109863125-1
 google_maps_javascript_api_key: AIzaSyDMYXq0MRHwat44vONYkjsy6e91JHTlfWI
 disqus_shortname: gokulambiotech
+snipcart_key: "YWQ5NWI4ZjctMWMwYS00NDI0LTk2MWYtM2ZkNTc1YTJhYWM1NjM2NDc0MTc2MTAwODY1MjIy"
 
 # Google verification Links
 
@@ -29,11 +30,12 @@ social:
 
 collections:
   people:
-    _hide_content: true
     output: true
+    _hide_content: true
   products:
     output: true
     _hide_content: true
+    _icon: shopping_cart
   certifications:
     output: true
     _hide_content: true
@@ -66,16 +68,6 @@ defaults:
   -
     scope:
       path: ""
-      type: "products_info"
-    values:
-      layout: "page"
-      _options:
-        image_path:
-          width: 600
-          height: 600
-  -
-    scope:
-      path: ""
     values:
       layout: "page"
   -
@@ -85,7 +77,7 @@ defaults:
       layout: "default"
   -
     scope:
-      path: "products.html"
+      path: "products"
     values:
       layout: "default"
       _options:
@@ -94,7 +86,17 @@ defaults:
           height: 100
   -
     scope:
-      path: "contact.html"
+      path: "shop.html"
+    values:
+      layout: "default"
+  -
+    scope:
+      path: "search.html"
+    values:
+      layout: "default"
+  -
+    scope:
+      path: "contact"
     values:
       full_width: false
 
@@ -120,17 +122,3 @@ exclude:
   - vendor/gems/
   - vendor/ruby/
 
-social_icons:
-  - Twitter
-  - Google Plus
-  - Facebook
-
-_comments:
-  map: Update the map location and display settings.
-  latitude: Coordinates for the center marker on the map.
-  longitude: Coordinates for the center marker on the map.
-  zoom: The zoom level for the map.
-  pricing_table: Update the information in the pricing tables.
-  highlight: Emphasis the text
-  color: The background colour used in the plan name and call to action.
-  new_window: Open link in new window

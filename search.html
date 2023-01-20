@@ -1,0 +1,69 @@
+---
+layout: default
+---
+<div class="content">
+  <section class="page">
+    <div class="col-xs-2">
+      <h2>Search Results:</h2>
+    </div>
+    <ul id="search-results"></ul>
+  </section>
+</div>
+
+<script>
+	window.store = {
+	  {% for post in site.posts %}
+		"{{ post.url | slugify }}": {
+		  "title": "{{ post.title | xml_escape }}",
+		  "author": "{{ post.author | xml_escape }}",
+		  "category": "{{ post.category | xml_escape }}",
+		  "content": {{ post.content | strip_html | strip_newlines | jsonify }},
+		  "url": "{{ post.url | xml_escape }}"
+		}
+		{% unless forloop.last %},{% endunless %}
+	  {% endfor %}
+    , 
+    {% for product in site.products %}
+      {% if product.name != "" %}
+      "{{ product.url | slugify }}": {
+        "title": "{{ product.title | xml_escape }}",
+        "name": "{{ product.name | xml_escape }}",
+        "type": "{{ product.type | xml_escape }}",
+        "shortdescription": "{{ product.shortdescription | xml_escape }}",
+        "content": {{ product.content | strip_html | strip_newlines | jsonify }},
+        "url": "{{ product.url | xml_escape }}"
+      }
+      {% unless forloop.last %},{% endunless %}
+      {% endif %}
+    {% endfor %}
+    ,
+    {% for item in site.certifications %}
+      {% if item.name != "" %}
+      "{{ item.link | slugify }}": {
+        "title": "{{ item.title | xml_escape }}",
+        "name": "{{ item.name | xml_escape }}",
+        "shortdescription": "{{ item.shortdescription | xml_escape }}",
+        "content": {{ item.content | strip_html | strip_newlines | jsonify }},
+        "url": "{{ item.url | xml_escape }}"
+      }
+      {% unless forloop.last %},{% endunless %}
+      {% endif %}
+    {% endfor %}
+    ,
+    {% for item in site.people %}
+      {% if item.name != "" %}
+      "{{ item.link | slugify }}": {
+        "name": "{{ item.name | xml_escape }}",
+        "position": "{{ item.position | xml_escape }}",
+        "email": {{ item.email | strip_html | strip_newlines | jsonify }},
+        "content": {{ item.content | strip_html | strip_newlines | jsonify }},
+        "url": "{{ item.url | xml_escape }}"
+      }
+      {% unless forloop.last %},{% endunless %}
+      {% endif %}
+    {% endfor %}
+
+	};
+</script>
+<script src="https://unpkg.com/lunr/lunr.js"></script>
+<script src="/js/search.js"></script>
