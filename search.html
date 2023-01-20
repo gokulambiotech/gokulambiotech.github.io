@@ -2,38 +2,42 @@
 layout: default
 ---
 <div class="content">
-
   <section class="page">
-    <div class="box">
-      <div class="row">
-        <div class="col-xs-3">
-        </div>
-        <div class="col-xs-5">
-          <form action="/search" method="get">
-            <input type="text" id="search-box" name="query">
-            <input type="submit" value="search">
-          </form>
-        </div>
-      </div>
-      <div class="col-xs-3"></div>
-      <ul id="search-results"></ul>
+    <div class="col-xs-2">
+      <h2>Search Results:</h2>
     </div>
+    <ul id="search-results"></ul>
   </section>
 </div>
 
 <script>
-  window.store = {
-    {% for post in site.posts %}
-      "{{ post.url | slugify }}": {
-        "title": "{{ post.title | xml_escape }}",
-        "author": "{{ post.author | xml_escape }}",
-        "category": "{{ post.category | xml_escape }}",
-        "content": {{ post.content | strip_html | strip_newlines | jsonify }},
-        "url": "{{ post.url | xml_escape }}"
+	window.store = {
+	  {% for post in site.posts %}
+		"{{ post.url | slugify }}": {
+		  "title": "{{ post.title | xml_escape }}",
+		  "author": "{{ post.author | xml_escape }}",
+		  "category": "{{ post.category | xml_escape }}",
+		  "content": {{ post.content | strip_html | strip_newlines | jsonify }},
+		  "url": "{{ post.url | xml_escape }}"
+		}
+		{% unless forloop.last %},{% endunless %}
+	  {% endfor %}
+    , 
+    {% for product in site.products %}
+      {% if product.name != "" %}
+      "{{ product.url | slugify }}": {
+        "title": "{{ product.title | xml_escape }}",
+        "name": "{{ product.name | xml_escape }}",
+        "type": "{{ product.type | xml_escape }}",
+        "shortdescription": "{{ product.shortdescription | xml_escape }}",
+        "content": {{ product.content | strip_html | strip_newlines | jsonify }},
+        "url": "{{ product.url | xml_escape }}"
       }
       {% unless forloop.last %},{% endunless %}
+      {% endif %}
     {% endfor %}
-  };
+  
+	};
 </script>
 <script src="https://unpkg.com/lunr/lunr.js"></script>
 <script src="/js/search.js"></script>
