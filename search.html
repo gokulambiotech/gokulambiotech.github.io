@@ -36,7 +36,33 @@ layout: default
       {% unless forloop.last %},{% endunless %}
       {% endif %}
     {% endfor %}
-  
+    ,
+    {% for item in site.certifications %}
+      {% if item.name != "" %}
+      "{{ item.link | slugify }}": {
+        "title": "{{ item.title | xml_escape }}",
+        "name": "{{ item.name | xml_escape }}",
+        "shortdescription": "{{ item.shortdescription | xml_escape }}",
+        "content": {{ item.content | strip_html | strip_newlines | jsonify }},
+        "url": "{{ item.url | xml_escape }}"
+      }
+      {% unless forloop.last %},{% endunless %}
+      {% endif %}
+    {% endfor %}
+    ,
+    {% for item in site.people %}
+      {% if item.name != "" %}
+      "{{ item.link | slugify }}": {
+        "name": "{{ item.name | xml_escape }}",
+        "position": "{{ item.position | xml_escape }}",
+        "email": {{ item.email | strip_html | strip_newlines | jsonify }},
+        "content": {{ item.content | strip_html | strip_newlines | jsonify }},
+        "url": "{{ item.url | xml_escape }}"
+      }
+      {% unless forloop.last %},{% endunless %}
+      {% endif %}
+    {% endfor %}
+
 	};
 </script>
 <script src="https://unpkg.com/lunr/lunr.js"></script>

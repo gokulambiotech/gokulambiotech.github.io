@@ -7,7 +7,11 @@ function displaySearchResults(results, store) {
 
     for (var i = 0; i < results.length; i++) {  // Iterate over the results
       var item = store[results[i].ref];
-      appendString += '<li><a href="' + item.url + '"><h3>' + item.title + '</h3></a>';
+      if (typeof item.title == "undefined") {
+        appendString += '<li><a href="' + item.url + '"><h3>' + item.name + '</h3></a>';
+      } else {
+        appendString += '<li><a href="' + item.url + '"><h3>' + item.title + '</h3></a>';
+      }
       appendString += '<p>' + item.content.substring(0, 150) + '...</p></li>';
     }
 
@@ -43,9 +47,11 @@ if (searchTerm) {
     this.field('author');
     this.field('category');
     this.field('content');
-    this.field('name');
+    this.field('name', { boost: 9 });
     this.field('type');
     this.field('shortdescription');
+    this.field('position');
+    this.field('email');
 
 
     for (var key in window.store) {
@@ -57,7 +63,9 @@ if (searchTerm) {
         'content': window.store[key].content,
         'name': window.store[key].name,
         'type': window.store[key].type,
-        'shortdescription': window.store[key].shortdescription
+        'shortdescription': window.store[key].shortdescription,
+        'position': window.store[key].position,
+        'email': window.store[key].email
       })
     }
   })

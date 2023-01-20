@@ -9,7 +9,7 @@ link: Zinc-Solubiliser/
 new_window: false
 
 
-shop: true
+shop: false
 sku: krishi-zinc-solubiliser
 sizes:
   - type: 3kg
