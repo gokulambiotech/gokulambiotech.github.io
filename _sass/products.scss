@@ -10,16 +10,16 @@
 	@include flex-flow(wrap);
 	text-align: left;
 	li {
-		padding: 30px 80px;
+		// padding: 10px 10px;
 		box-sizing: border-box;
-		width: 100%;
+		width: auto;
 
 		@media #{$tablet} {
-			@include flex(1, 1, 45%);
+			@include flex(1, 1, auto);
 		}
 
 		@media #{$desktop} {
-			@include flex(1, 1, 29%);
+			@include flex(1, 1, 10%);
 		}
 
 	}
