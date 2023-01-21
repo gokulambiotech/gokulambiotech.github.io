@@ -8,6 +8,37 @@ highlight: true
 new_window: false
 shortdescription: For White Soil Grubs
 image_path: /images/krish-logo.jpg
+
+shop: true
+sizes:
+  - type: KRISHI-Grubguard-Liquid-5L
+    weight: 5000
+    price: 3750
+    stock: 50
+    sku: KRISHI-Grubguard-Liquid-5L
+    tax: biopesticide
+  - type: KRISHI-Grubguard-Liquid-10L
+    weight: 10000
+    price: 7500
+    stock: 50
+    sku: KRISHI-Grubguard-Liquid-10L
+    tax: biopesticide
+  - type: KRISHI-Grubguard-Talc-3kg
+    weight: 3000
+    price: 480
+    stock: 100
+    sku:  KRISHI-Grubguard-Talc-3kg
+    tax: biopesticide
+  - type:  KRISHI-Grubguard-Talc-5kg
+    weight: 5000
+    price: 800
+    stock: 100
+    sku:  KRISHI-Grubguard-Talc-5kg
+    tax: biopesticide
+styles:
+  - name: Front
+    color: '#0FF000'
+    image: /images/krish-logo.jpg
 ---
 ### What is Krishi - GrubGuard and how can it helps farmers to tacke white Grub problems?
 

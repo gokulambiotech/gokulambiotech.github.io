@@ -11,17 +11,29 @@ new_window: false
 
 shop: true
 sizes:
-  - type: 5L
+  - type: KRISHI-Growth-and-Yield-Booster-Liquid-5L
     weight: 5000
     price: 2500
     stock: 50
-    sku: KRISHI-Growth-and-Yield-Booster-5L
+    sku: KRISHI-Growth-and-Yield-Booster-Liquid-5L
     tax: biofertilizer
-  - type: 10L
+  - type: KRISHI-Growth-and-Yield-Booster-Liquid-10L
     weight: 10000
     price: 5000
     stock: 50
-    sku: KRISHI-Growth-and-Yield-Booster-10L
+    sku: KRISHI-Growth-and-Yield-Booster-Liquid-10L
+    tax: biofertilizer
+  - type: KRISHI-Growth-and-Yield-Booster-Talc-3kg
+    weight: 3000
+    price: 404
+    stock: 100
+    sku:  KRISHI-Growth-and-Yield-Booster-Talc-3kg
+    tax: biofertilizer
+  - type:  KRISHI-Growth-and-Yield-Booster-Talc-5kg
+    weight: 5000
+    price: 675
+    stock: 100
+    sku:  KRISHI-Growth-and-Yield-Booster-Talc-5kg
     tax: biofertilizer
 styles:
   - name: Front
@@ -29,14 +41,10 @@ styles:
     image: /images/krish-logo.jpg
 ---
 ### Description
-Krishi Growth Booster and Krishi Yield Booster are bio-products useful for boosting
-performance of all crops of commercial importance.
-Krishi – Growth Booster is formulated using Polyfunctional Microbe technology and
-contains a consortia of beneficial microbes blended in balanced proportion with a total
-microbial count of CFU 2 x 10 9 per ml.
-It can be applied to soil during post-flowering and reproductive stages of crop growth for
-boosting yield. In addition to boosting growth, Krishi – Yield Booster also helps crops to
-build their resistance against biotic and abiotic stress. Krishi – Yield Booster is formulated
-using Polyfunctional Microbe (PFM) based liquid bio-inoculants technology and contains
-a consortia of beneficial microbes blended in balanced proportion with a total microbial
-count of CFU 2 x 10 9 per ml (minimum).
+Krishi Growth Booster and Krishi Yield Booster are bio-products useful for boosting performance of all crops of commercial importance.
+
+Krishi – Growth Booster is formulated using Polyfunctional Microbe technology and contains a consortia of beneficial microbes blended in balanced proportion with a total microbial count of CFU 2 x 10 9 per ml.
+
+It can be applied to soil during post-flowering and reproductive stages of crop growth for boosting yield. In addition to boosting growth, Krishi – Yield Booster also helps crops to build their resistance against biotic and abiotic stress.
+
+Krishi – Yield Booster is formulated using Polyfunctional Microbe (PFM) based liquid bio-inoculants technology and contains a consortia of beneficial microbes blended in balanced proportion with a total microbial count of CFU 2 x 10 9 per ml (minimum).

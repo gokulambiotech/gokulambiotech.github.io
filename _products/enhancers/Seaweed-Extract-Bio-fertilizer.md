@@ -7,6 +7,25 @@ shortdescription: a consortia of biofertilizers necessary for augmenting vegetat
 image_path: /images/krish-logo.jpg
 link: Seaweed-Extract-Bio-fertilizer/
 new_window: false
+
+shop: true
+sizes:
+  - type: KRISHI-Seaweed-Extract-Bio-fertilizer-5L
+    weight: 5000
+    price: 2250
+    stock: 50
+    sku: KRISHI-Seaweed-Extract-Bio-fertilizer-5L
+    tax: biofertilizer
+  - type: KRISHI-Seaweed-Extract-Bio-fertilizer-10L
+    weight: 10000
+    price: 4500
+    stock: 50
+    sku: KRISHI-Seaweed-Extract-Bio-fertilizer-10L
+    tax: biofertilizer
+styles:
+  - name: Front
+    color: '#0FF000'
+    image: /images/krish-logo.jpg
 ---
 ### Description
 Seaweed Extract bio-fertilizer is a source of several natural plant growth regulators such

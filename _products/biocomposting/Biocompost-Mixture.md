@@ -10,17 +10,17 @@ new_window: false
 
 shop: true
 sizes:
-  - type: 5L
+  - type: KRISHI-Biocompost-Mixture-liquid-5L
     weight: 5000
     price: 2500
     stock: 50
-    sku: KRISHI-Biocompost-Mixture-5L
+    sku: KRISHI-Biocompost-Mixture-liquid-5L
     tax: biofertilizer
-  - type: 10L
+  - type: KRISHI-Biocompost-Mixture-liquid-10L
     weight: 10000
     price: 5000
     stock: 50
-    sku: KRISHI-Biocompost-Mixture-10L
+    sku: KRISHI-Biocompost-Mixture-liquid-10L
     tax: biofertilizer
 styles:
   - name: Front

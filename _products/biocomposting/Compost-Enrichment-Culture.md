@@ -10,17 +10,17 @@ new_window: false
 
 shop: true
 sizes:
-  - type: 5L
+  - type: KRISHI-Compost-Enrichment-Culture-Liquid-5L
     weight: 5000
     price: 2500
     stock: 50
-    sku: KRISHI-Compost-Enrichment-Culture-5L
+    sku: KRISHI-Compost-Enrichment-Culture-Liquid-5L
     tax: biofertilizer
-  - type: 10L
+  - type:  KRISHI-Compost-Enrichment-Culture-Liquid-10L
     weight: 10000
     price: 5000
     stock: 50
-    sku: KRISHI-Compost-Enrichment-Culture-10L
+    sku: KRISHI-Compost-Enrichment-Culture-Liquid-10L
     tax: biofertilizer
 styles:
   - name: Front

@@ -7,6 +7,25 @@ image_path: /images/krish-logo.jpg
 shortdescription: is a unique product developed for soil having an alkaline pH range.
 link: Rhizosphere-pH-Regulator/
 new_window: false
+
+shop: true
+sizes:
+  - type: KRISHI-Rhizosphere-pH-Regulator-Liquid-5L
+    weight: 5000
+    price: 2500
+    stock: 50
+    sku: KRISHI-Rhizosphere-pH-Regulator-Liquid-5L
+    tax: biofertilizer
+  - type: KRISHI-Rhizosphere-pH-Regulator-Liquid-10L
+    weight: 10000
+    price: 5000
+    stock: 50
+    sku: KRISHI-Rhizosphere-pH-Regulator-Liquid-10L
+    tax: biofertilizer
+styles:
+  - name: Front
+    color: '#0FF000'
+    image: /images/krish-logo.jpg
 ---
 ### Description
 Krishi – Rhizosphere pH Regulator is a unique product developed for soil having an alkaline

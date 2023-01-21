@@ -7,6 +7,25 @@ shortdescription: a consortia of biofertilizers necessary for augmenting vegetat
 image_path: /images/krish-logo.jpg
 link: Krishizyme/
 new_window: false
+
+shop: true
+sizes:
+  - type: KRISHI-Krishizyme-5L
+    weight: 5000
+    price: 2250
+    stock: 50
+    sku: KRISHI-Krishizyme-5L
+    tax: biofertilizer
+  - type: KRISHI-Krishizyme-10L
+    weight: 10000
+    price: 4500
+    stock: 50
+    sku: KRISHI-Krishizyme-10L
+    tax: biofertilizer
+styles:
+  - name: Front
+    color: '#0FF000'
+    image: /images/krish-logo.jpg
 ---
 ### Description
 Krishizyme is an organic growth promoter and a fermentation product obtained from

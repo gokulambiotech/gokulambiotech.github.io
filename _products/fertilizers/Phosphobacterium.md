@@ -1,5 +1,5 @@
 ---
-title: Liquid Biofertilizer - Phosphobacterium
+title: Liquid/Talc Biofertilizer - Phosphobacterium
 name: KRISHI - Phosphobacterium
 fertilizer: true
 type: fertilizer
@@ -10,13 +10,25 @@ new_window: false
 
 shop: true
 sizes:
-  - type: 3kg
+  - type: KRISHI-Phosphobacterium-Liquid-5L
+    weight: 5000
+    price: 2500
+    stock: 100
+    sku: KRISHI-Phosphobacterium-Liquid-5L
+    tax: biofertilizer
+  - type: KRISHI-Phosphobacterium-Liquid-10L
+    weight: 10000
+    price: 5000
+    stock: 100
+    sku: KRISHI-Phosphobacterium-Liquid-10L
+    tax: biofertilizer
+  - type: KRISHI-Phosphobacterium-Talc-3kg
     weight: 3000
     price: 375
     stock: 100
     sku: KRISHI-Phosphobacterium-3kg
     tax: biofertilizer
-  - type: 5kg
+  - type: KRISHI-Phosphobacterium-Talc-5kg
     weight: 5000
     price: 625
     stock: 100

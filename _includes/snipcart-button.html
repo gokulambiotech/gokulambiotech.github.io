@@ -4,10 +4,7 @@
 			<h4> {{size.type}} = ₹{{ size.price }} </h4>
 		</div>
 		<div class="col-xs">
-			<label for="{{ include.size.sku }}-qty">Quantity:</label> 
-		</div>
-		<div class="col-xs">
-			<input class="input" type="number" id="{{ include.size.sku }}-qty" class="qty" min="1" value="1" price="{{include.size.price }}"/>
+			Qty: <input class="input" type="number" id="{{ include.size.sku }}-qty" class="qty" min="1" value="1" price="{{include.size.price }}"/>
 		<!-- </div>
 		<div class="col-xs"> -->
 			<button class="snipcart-add-item buy-button"

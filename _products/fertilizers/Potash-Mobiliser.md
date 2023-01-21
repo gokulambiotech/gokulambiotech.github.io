@@ -7,6 +7,25 @@ image_path: /images/krish-logo.jpg
 shortdescription: is a liquid biofertilizer containing pure cultures of naturally occurring soil-borne Potash Mobilising bacterium
 link: Potash-Mobiliser/
 new_window: false
+
+shop: true
+sizes:
+  - type: KRISHI-Potash-Mobiliser-Liquid-5L
+    weight: 5000
+    price: 2500
+    stock: 50
+    sku: KRISHI-Potash-Mobiliser-Liquid-5L
+    tax: biofertilizer
+  - type: KRISHI-Potash-Mobiliser-Liquid-Liquid-10L
+    weight: 10000
+    price: 5000
+    stock: 50
+    sku: KRISHI-Potash-Mobiliser-Liquid-Liquid-10L
+    tax: biofertilizer
+styles:
+  - name: Front
+    color: '#0FF000'
+    image: /images/krish-logo.jpg
 ---
 
 ### Description

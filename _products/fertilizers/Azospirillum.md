@@ -7,6 +7,25 @@ shortdescription: is a beneficial soil-borne bacterium capable of fixing conside
 image_path: /images/krish-logo.jpg
 link: Azospirillum/
 new_window: false
+
+shop: true
+sizes:
+  - type: KRISHI-Azospirillum-Liquid-5L
+    weight: 5000
+    price: 2500
+    stock: 50
+    sku: KRISHI-Azospirillum-Liquid-5L
+    tax: biofertilizer
+  - type: KRISHI-Azospirillum-Liquid-10L
+    weight: 10000
+    price: 5000
+    stock: 50
+    sku: KRISHI-Azospirillum-Liquid-10L
+    tax: biofertilizer
+styles:
+  - name: Front
+    color: '#0FF000'
+    image: /images/krish-logo.jpg
 ---
 ### Description
 

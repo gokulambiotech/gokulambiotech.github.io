@@ -10,17 +10,29 @@ new_window: false
 
 shop: true
 sizes:
-  - type: 5L
+  - type: KRISHI-Sugar-Cane-Growth-and-Yield-Boosters-Liquid-5L
     weight: 5000
     price: 2500
     stock: 50
-    sku: KRISHI-Sugar-Cane-Growth-and-Yield-Boosters-5L
+    sku: KRISHI-Sugar-Cane-Growth-and-Yield-Boosters-Liquid-5L
     tax: biofertilizer
-  - type: 10L
+  - type: KRISHI-Sugar-Cane-Growth-and-Yield-Boosters-Liquid-10L
     weight: 10000
     price: 5000
     stock: 50
-    sku: KRISHI-Sugar-Cane-Growth-and-Yield-Boosters-10L
+    sku: KRISHI-Sugar-Cane-Growth-and-Yield-Boosters-Liquid-10L
+    tax: biofertilizer
+  - type: KRISHI-Sugar-Cane-Growth-and-Yield-Boosters-Talc-3kg
+    weight: 3000
+    price: 404
+    stock: 100
+    sku:  KRISHI-Sugar-Cane-Growth-and-Yield-Boosters-Talc-3kg
+    tax: biofertilizer
+  - type:  KRISHI-Sugar-Cane-Growth-and-Yield-Boosters-Talc-5kg
+    weight: 5000
+    price: 675
+    stock: 100
+    sku:  KRISHI-Sugar-Cane-Growth-and-Yield-Boosters-Talc-5kg
     tax: biofertilizer
 styles:
   - name: Front
@@ -28,10 +40,4 @@ styles:
     image: /images/krish-logo.jpg
 ---
 ### Description
-Sugar Cane Growth and Yield Booster contains a consortia of bioinoculants required at
-different stages of growth of sugar cane crop. Growth Boosters #1, #2 and #3 are recommended
-for soil application at basal, 45 th day (first earthing-up) and 90 th day (second earthing-up) after
-planting. Yield boosters #4 and #5 are recommended for application at monthly intervals
-between 4 to 8 th month after planting. Krishi- Sugar cane growth and yield boosters are
-recommended @ one liter per acre. Repeated soil applications of yield boosters from 4 to 8 th
-month at monthly interval will be beneficial for increasing cane weight and sugar recovery.
+Sugar Cane Growth and Yield Booster contains a consortia of bioinoculants required at different stages of growth of sugar cane crop. Growth Boosters #1, #2 and #3 are recommended for soil application at basal, 45 th day (first earthing-up) and 90 th day (second earthing-up) after planting. Yield boosters #4 and #5 are recommended for application at monthly intervals between 4 to 8 th month after planting. Krishi- Sugar cane growth and yield boosters are recommended @ one liter per acre. Repeated soil applications of yield boosters from 4 to 8 th month at monthly interval will be beneficial for increasing cane weight and sugar recovery.

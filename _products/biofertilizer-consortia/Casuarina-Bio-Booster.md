@@ -10,17 +10,29 @@ new_window: false
 
 shop: true
 sizes:
-  - type: 5L
+  - type: KRISHI-Casuarina-Bio-Booster-Liquid-5L
     weight: 5000
     price: 2500
     stock: 50
-    sku: KRISHI-Casuarina-Bio-Booster-5L
+    sku: KRISHI-Casuarina-Bio-Booster-Liquid-5L
     tax: biofertilizer
-  - type: 10L
+  - type: KRISHI-Casuarina-Bio-Booster-Liquid-10L
     weight: 10000
     price: 5000
     stock: 50
-    sku: KRISHI-Casuarina-Bio-Booster-10L
+    sku: KRISHI-Casuarina-Bio-Booster-Liquid-10L
+    tax: biofertilizer
+  - type: KRISHI-Casuarina-Bio-Booster-Talc-3kg
+    weight: 3000
+    price: 404
+    stock: 100
+    sku:  KRISHI-Casuarina-Bio-Booster-Talc-3kg
+    tax: biofertilizer
+  - type:  KRISHI-Casuarina-Bio-Booster-Talc-5kg
+    weight: 5000
+    price: 675
+    stock: 100
+    sku:  KRISHI-Casuarina-Bio-Booster-Talc-5kg
     tax: biofertilizer
 styles:
   - name: Front
@@ -28,9 +40,5 @@ styles:
     image: /images/krish-logo.jpg
 ---
 ### Description
-Krishi – Casuarina Bio-Booster contains a consortia of bioinoculants required at
-different stages of growth of casuarina crop.
-Krishi-Casuarina Bio-Booster No:1 contains biofertilizers such as Azospirillum,
-Phosphobacterium and Potash Mobiliser in proportions required by the young casuarina plants
-during early vegetative growth phase. It facilitates early and proper development of root
-system and encourages maximum vegetative growth.
+Krishi – Casuarina Bio-Booster contains a consortia of bioinoculants required at different stages of growth of casuarina crop.
+- Krishi-Casuarina Bio-Booster No:1 contains biofertilizers such as Azospirillum, Phosphobacterium and Potash Mobiliser in proportions required by the young casuarina plants during early vegetative growth phase. It facilitates early and proper development of root system and encourages maximum vegetative growth.
