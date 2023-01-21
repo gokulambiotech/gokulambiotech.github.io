@@ -7,6 +7,25 @@ shortdescription: a consortia of biofertilizers necessary for augmenting vegetat
 image_path: /images/krish-logo.jpg
 link: Sugar-Cane-Growth-and-Yield-Boosters/
 new_window: false
+
+shop: true
+sizes:
+  - type: 5L
+    weight: 5000
+    price: 2500
+    stock: 50
+    sku: KRISHI-Sugar-Cane-Growth-and-Yield-Boosters-5L
+    tax: biofertilizer
+  - type: 10L
+    weight: 10000
+    price: 5000
+    stock: 50
+    sku: KRISHI-Sugar-Cane-Growth-and-Yield-Boosters-10L
+    tax: biofertilizer
+styles:
+  - name: Front
+    color: '#0FF000'
+    image: /images/krish-logo.jpg
 ---
 ### Description
 Sugar Cane Growth and Yield Booster contains a consortia of bioinoculants required at

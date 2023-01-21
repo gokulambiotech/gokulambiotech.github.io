@@ -7,6 +7,26 @@ image_path: /images/krish-logo.jpg
 shortdescription: is a liquid biofertilizer containing pure culture of naturally occurring soil-borne phosphorus solubilising bacterium.
 link: Phosphobacterium/
 new_window: false
+
+shop: true
+sizes:
+  - type: 3kg
+    weight: 3000
+    price: 375
+    stock: 100
+    sku: KRISHI-Phosphobacterium-3kg
+    tax: biofertilizer
+  - type: 5kg
+    weight: 5000
+    price: 625
+    stock: 100
+    sku: KRISHI-Phosphobacterium-5kg
+    tax: biofertilizer
+    
+styles:
+  - name: Front
+    color: '#0FF000'
+    image: /images/krish-logo.jpg
 ---
 ### Description
 KRISHI-Phosphobacterium is a liquid biofertilizer containing pure culture of naturally

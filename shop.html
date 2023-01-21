@@ -17,7 +17,7 @@ layout: default
 				</div>
 				<div class="col-xs">
 					<h3><a href="{{ product.url }}">{{ product.name }}</a></h3>
-					Note: Click the link above for detailed information on the product.
+					<p> {{ product.shortdescription }} </p>
 					{% for size in product.sizes %}
 					{% include snipcart-button.html product=product size=size %}
 					{% endfor %}

@@ -7,6 +7,25 @@ shortdescription: BCM contains a consortia of fungal and bacterial cultures
 image_path: /images/krish-logo.jpg
 link: Biocompost-Mixture/
 new_window: false
+
+shop: true
+sizes:
+  - type: 5L
+    weight: 5000
+    price: 2500
+    stock: 50
+    sku: KRISHI-Biocompost-Mixture-5L
+    tax: biofertilizer
+  - type: 10L
+    weight: 10000
+    price: 5000
+    stock: 50
+    sku: KRISHI-Biocompost-Mixture-10L
+    tax: biofertilizer
+styles:
+  - name: Front
+    color: '#0FF000'
+    image: /images/krish-logo.jpg
 ---
 ### Description
 Krishi – Biocompost mixture contains a consortia of fungal and bacterial cultures useful for

@@ -26,7 +26,6 @@ layout: default
 			</div>
 			<div class="col-xs">
 				<h3><a href="{{ page.url }}">{{ page.name }}</a></h3>
-				Note: Click the link above for detailed information on the product.
 				{% for size in page.sizes %}
 				{% include snipcart-button.html product=page size=size %}
 				{% endfor %}

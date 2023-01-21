@@ -33,10 +33,10 @@
       type: pesticide
       shortdescription: KRISHI Bio-Pesticides
       image_path: /images/krish-logo.jpg
-- name: OnlineShop
-  link: /shop/
-  new_window: false
-  highlight: false
+# - name: OnlineShop
+#   link: /shop/
+#   new_window: false
+#   highlight: false
 - name: FAQ
   link: /faq/
   new_window: false

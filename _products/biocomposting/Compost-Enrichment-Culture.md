@@ -7,6 +7,25 @@ shortdescription: BCM contains a consortia of fungal and bacterial cultures
 image_path: /images/krish-logo.jpg
 link: Compost-Enrichment-Culture/
 new_window: false
+
+shop: true
+sizes:
+  - type: 5L
+    weight: 5000
+    price: 2500
+    stock: 50
+    sku: KRISHI-Compost-Enrichment-Culture-5L
+    tax: biofertilizer
+  - type: 10L
+    weight: 10000
+    price: 5000
+    stock: 50
+    sku: KRISHI-Compost-Enrichment-Culture-10L
+    tax: biofertilizer
+styles:
+  - name: Front
+    color: '#0FF000'
+    image: /images/krish-logo.jpg
 ---
 ### Description
 Krishi – Compost Enrichment culture contains a consortia of bioinoculants which are

@@ -7,6 +7,26 @@ shortdescription: Casuarina Bio-Booster contains a consortia of bioinoculants
 image_path: /images/krish-logo.jpg
 link: Growth-and-Yield-Booster/
 new_window: false
+
+
+shop: true
+sizes:
+  - type: 5L
+    weight: 5000
+    price: 2500
+    stock: 50
+    sku: KRISHI-Growth-and-Yield-Booster-5L
+    tax: biofertilizer
+  - type: 10L
+    weight: 10000
+    price: 5000
+    stock: 50
+    sku: KRISHI-Growth-and-Yield-Booster-10L
+    tax: biofertilizer
+styles:
+  - name: Front
+    color: '#0FF000'
+    image: /images/krish-logo.jpg
 ---
 ### Description
 Krishi Growth Booster and Krishi Yield Booster are bio-products useful for boosting

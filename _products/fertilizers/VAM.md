@@ -12,20 +12,19 @@ description_markdown:
   Krishi – VAM Bio-Fertilizer is a bio-fertilizer preparation containing endo-mycorrhizal fungi , Glomus sp at 1,50,000 IP per kg of product. After reaching soil, it establishes symbiotic relationship with plant roots by penetrating into the root cortex and form nutrient exchange structures (arbuscules and vesicles) within the cells of roots.
 
 shop: true
-sku: krishi-vam
 sizes:
   - type: 3kg
     weight: 3000
     price: 375
-    stock: 6
+    stock: 100
     sku: KRISHI-VAM-3kg
     tax: biofertilizer
   - type: 5kg
     weight: 5000
     price: 625
-    stock: 10
-    tax: biofertilizer
+    stock: 100
     sku: KRISHI-VAM-5kg
+    tax: biofertilizer
 styles:
   - name: Front
     color: '#0FF000'
@@ -33,7 +32,6 @@ styles:
   - name: Label
     color: '#0FF'
     image: /images/products/onlineshop/vam-label.jpg
-  
 ---
 ###  Krishi – VAM Bio-Fertilizer
  Krishi – VAM Bio-Fertilizer is a bio-fertilizer preparation containing endo-mycorrhizal fungi , Glomus sp at 1,50,000 IP per kg of product. After reaching soil, it establishes symbiotic relationship with plant roots by penetrating into the root cortex and form nutrient exchange structures (arbuscules and vesicles) within the cells of roots.
