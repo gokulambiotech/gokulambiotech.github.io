@@ -16,13 +16,15 @@ sku: krishi-vam
 sizes:
   - type: 3kg
     weight: 3000
-    price: 600
+    price: 375
     stock: 6
     sku: KRISHI-VAM-3kg
+    tax: biofertilizer
   - type: 5kg
     weight: 5000
-    price: 800
+    price: 625
     stock: 10
+    tax: biofertilizer
     sku: KRISHI-VAM-5kg
 styles:
   - name: Front

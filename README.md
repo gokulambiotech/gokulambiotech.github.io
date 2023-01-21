@@ -57,3 +57,14 @@ $ for f in *\ *; do mv "$f" "${f// /_}"; done
 ## Taxes based on product group
 - Fertilizers 5%
 - Pesticides 12%
+## shipping info 
+lorry - slow
+- 5 rps / kg  = 1 box (min) = 10 or 15 kg
+- days - depo near?
+- consignining collect by paying the fright
+- door delivery, auto, extra charge..
+- how delivery
+
+Courier
+- 70 rps /kg 
+- how many days?
