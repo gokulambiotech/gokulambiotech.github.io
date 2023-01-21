@@ -33,7 +33,7 @@ description: All products have minimum 1 year shelf-life.
 					<a href="{{ entry.url }}">
 						<div class="product-image"><img src="{{ entry.image_path }}" alt="{{ entry.url }}" /></div>
 					</a>
-					<div class="name"><a target="_blank" href="{% include relative-src.html src=entry.url %}">{{
+					<div class="name"><a target="_blank" rel="noopener noreferrer" href="{% include relative-src.html src=entry.url %}">{{
 							entry.page }}</a></div>
 				</li>
 				{% endfor %}
@@ -53,7 +53,7 @@ description: All products have minimum 1 year shelf-life.
 					{% if product.type == entry.type %}
 				<li>
 					<a href="{% include relative-src.html src=product.url %}" class="{{ class }}" {% if
-						product.new_window %} target="_blank" {% endif %}>
+						product.new_window %} target="_blank" rel="noopener noreferrer" {% endif %}>
 						{% if product.highlight %}
 						<mark>New:</mark>
 						{% endif %}

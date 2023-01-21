@@ -9,7 +9,7 @@
 		{% if link.link == page.url %}
 			{% assign class = class | append: " active" %}
 		{% endif %}
-		<a href="{% include relative-src.html src=link.link %}" class="{{ class }}" {% if link.new_window %}target="_blank"{% endif %}>{{ link.name }}</a>
+		<a href="{% include relative-src.html src=link.link %}" class="{{ class }}" {% if link.new_window %}target="_blank" rel="noopener noreferrer" {% endif %}>{{ link.name }}</a>
 	{% endfor %}
 	<a href="#" class="cart snipcart-checkout"><i class="material-icons">shopping_cart</i>(<span class="snipcart-items-count"></span> items)=<span class="snipcart-total-price"></span></a>
 	<form action="/search" method="get">

@@ -72,7 +72,7 @@
 					{% for column in site.data.footer %}
 					<ul class="footer-links">
 						{% for link in column.links %}
-							<li><a {% if link.new_window %}target="_blank"{% endif %} href="{% include relative-src.html src=link.link %}" {% if link.social_icon %}class="{{ link.social_icon }}-icon"{% endif %}>
+							<li><a {% if link.new_window %}target="_blank" rel="noopener noreferrer" {% endif %} href="{% include relative-src.html src=link.link %}" {% if link.social_icon %}class="{{ link.social_icon }}-icon"{% endif %}>
 								{% if link.social_icon %}
 									{% include social-icon.html icon=link.social_icon %}
 								{% endif %}
@@ -81,7 +81,7 @@
 					</ul>
 					{% endfor %}
 				</div>
-				<p class="copyright">&copy; {{ site.time | date: '%Y' }} Biotech division of Gokulam Entreprise. • <a href="/terms/">Terms and conditions</a> ; • <a href="https://help.github.com/articles/using-jekyll-as-a-static-site-generator-with-github-pages/" target="_blank">Powered by Github/Jekyll</a> • <a href="https://www.cloudflare.com/" target="_blank"> Cloudflare </a></p>
+				<p class="copyright">&copy; {{ site.time | date: '%Y' }} Biotech division of Gokulam Entreprise. • <a href="/terms/">Terms and conditions</a> ; • <a href="https://help.github.com/articles/using-jekyll-as-a-static-site-generator-with-github-pages/" target="_blank" rel="noopener noreferrer">Powered by Github/Jekyll</a> • <a href="https://www.cloudflare.com/" target="_blank" rel="noopener noreferrer"> Cloudflare </a></p>
 			</div>
 		</footer>
 		<script>

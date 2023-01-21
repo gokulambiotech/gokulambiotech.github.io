@@ -9,7 +9,7 @@ description:
       <!-- <div class="square-image"><img src="{% include relative-src.html src=product.image_path %}" alt="{{ product.name }}"/></div> -->
 			<div class="name">
         <a href="{% include relative-src.html src=product.link %}
-        " class="{{ class }}" {% if product.new_window %}target="_blank"{% endif %}>
+        " class="{{ class }}" {% if product.new_window %}target="_blank" rel="noopener noreferrer"{% endif %}>
           {{ product.name}}
         </a>
         </div>

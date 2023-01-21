@@ -43,7 +43,7 @@ map:
         <h2>{{ office.name }}</h2>
       <address>
           <!-- <a target="_blank" href="https://maps.google.com/?q={{page.map.location}}"> -->
-          <a target="_blank" href="https://maps.google.com/?q={{office.name}}">
+          <a target="_blank" rel="noopener noreferrer" href="https://maps.google.com/?q={{office.name}}">
           {{ office.map.address | replace: ", ", ", <br>" }}</a>
       </address>
 
