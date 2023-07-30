@@ -8,7 +8,7 @@ image_path: /images/krish-logo.jpg
 link: Mulberry Bio-Booster/
 new_window: false
 
-shop: true
+shop: false
 sizes:
   - type: KRISHI-Mulberry Bio-Booster-Liquid-5L
     weight: 5000

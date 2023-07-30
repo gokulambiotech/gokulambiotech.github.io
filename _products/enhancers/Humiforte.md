@@ -8,7 +8,7 @@ image_path: /images/krish-logo.jpg
 link: Homiforte/
 new_window: false
 
-shop: true
+shop: false
 sizes:
   - type: KRISHI-Homiforte-5L
     weight: 5000

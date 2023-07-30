@@ -8,7 +8,7 @@ image_path: /images/krish-logo.jpg
 link: Seaweed-Extract-Bio-fertilizer/
 new_window: false
 
-shop: true
+shop: false
 sizes:
   - type: KRISHI-Seaweed-Extract-Bio-fertilizer-5L
     weight: 5000

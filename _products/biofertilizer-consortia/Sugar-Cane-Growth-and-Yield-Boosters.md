@@ -8,7 +8,7 @@ image_path: /images/krish-logo.jpg
 link: Sugar-Cane-Growth-and-Yield-Boosters/
 new_window: false
 
-shop: true
+shop: false
 sizes:
   - type: KRISHI-Sugar-Cane-Growth-and-Yield-Boosters-Liquid-5L
     weight: 5000
