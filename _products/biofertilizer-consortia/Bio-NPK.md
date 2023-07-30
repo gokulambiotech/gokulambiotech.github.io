@@ -28,4 +28,12 @@ styles:
     image: /images/krish-logo.jpg
 ---
 ### Description
-A bacterial formulation, which contains a consortia of biofertilziers necessary for augmenting growth and production. Bio-NPK contains biofertilizers.
+Krishi - BIO NPK Liquid Consortia is a liquid biofertilizer containing a mixture of various functionally different biofertilizers such as Azospirillum, Phosphate solubilising Bacterium and Potassium Mobilizing Bacterium with an individual viable cell count of CFU minimum 1 x 10 cells per mi of liguid consortia
+
+#### Target Crops
+All field crops.
+#### Dosage and Directions for use
+Use I Liter of Krishi - BIO NPK Liquid Consortia per acre. Dissolve contents of bottle in small quantity of water and mix with FYM and spread the enriched FYM evenly on to the field. Alternatively Krishi - BIO NPK Liquid Consortia can also be applied in fertigation through drip irrigation system.
+
+#### Storage
+Store in a cool dry place.
