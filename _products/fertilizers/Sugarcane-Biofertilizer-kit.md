@@ -9,19 +9,6 @@ link: Sugarcane-Biofertilizer-kit/
 new_window: false
 
 shop: false
-sizes:
-  - type: KRISHI-Sugarcane-Biofertilizer-kit-5L
-    weight: 5000
-    price: 2500
-    stock: 50
-    sku: KRISHI-Sugarcane-Biofertilizer-kit-5L
-    tax: biofertilizer
-  - type: KRISHI-Sugarcane-Biofertilizer-kit-10L
-    weight: 10000
-    price: 5000
-    stock: 50
-    sku: KRISHI-Sugarcane-Biofertilizer-kit-10L
-    tax: biofertilizer
 styles:
   - name: Front
     color: '#0FF000'

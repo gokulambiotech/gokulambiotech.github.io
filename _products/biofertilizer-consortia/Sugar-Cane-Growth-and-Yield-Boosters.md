@@ -9,32 +9,6 @@ link: Sugar-Cane-Growth-and-Yield-Boosters/
 new_window: false
 
 shop: false
-sizes:
-  - type: KRISHI-Sugar-Cane-Growth-and-Yield-Boosters-Liquid-5L
-    weight: 5000
-    price: 2500
-    stock: 50
-    sku: KRISHI-Sugar-Cane-Growth-and-Yield-Boosters-Liquid-5L
-    tax: biofertilizer
-  - type: KRISHI-Sugar-Cane-Growth-and-Yield-Boosters-Liquid-10L
-    weight: 10000
-    price: 5000
-    stock: 50
-    sku: KRISHI-Sugar-Cane-Growth-and-Yield-Boosters-Liquid-10L
-    tax: biofertilizer
-  - type: KRISHI-Sugar-Cane-Growth-and-Yield-Boosters-Talc-3kg
-    weight: 3000
-    price: 404
-    stock: 100
-    sku:  KRISHI-Sugar-Cane-Growth-and-Yield-Boosters-Talc-3kg
-    tax: biofertilizer
-  - type:  KRISHI-Sugar-Cane-Growth-and-Yield-Boosters-Talc-5kg
-    weight: 5000
-    price: 675
-    stock: 100
-    sku:  KRISHI-Sugar-Cane-Growth-and-Yield-Boosters-Talc-5kg
-    tax: biofertilizer
-styles:
   - name: Front
     color: '#0FF000'
     image: /images/krish-logo.jpg

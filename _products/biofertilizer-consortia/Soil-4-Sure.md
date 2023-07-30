@@ -12,7 +12,7 @@ shop: true
 sizes:
   - type: KRISHI-Soil-4-Sure-Liquid-5L
     weight: 5000
-    price: 600
+    price: 3000
     stock: 50
     sku: KRISHI-Soil-4-Sure-Liquid-5L
     tax: biofertilizer

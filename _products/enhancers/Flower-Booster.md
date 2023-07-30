@@ -12,7 +12,7 @@ shop: true
 sizes:
   - type: KRISHI-Flower-Booster-0.5L
     weight: 500
-    price: 2250
+    price: 300
     stock: 50
     sku: KRISHI-Flower-Booster-0.5L
     tax: biofertilizer

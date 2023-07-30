@@ -1,5 +1,5 @@
 ---
-title: Liquid Biocomposting - Biocompost-Mixture (BCM)
+title: Biocomposting - Biocompost-Mixture (BCM)
 name: KRISHI - Biocompost-Mixture (BCM)
 composting: true
 type: composting
@@ -9,17 +9,6 @@ link: Biocompost-Mixture/
 new_window: false
 
 shop: false
-sizes:
-  - type: KRISHI-Biocompost-Mixture-liquid-5L
-    weight: 5000
-    price: 2500
-    sku: KRISHI-Biocompost-Mixture-liquid-5L
-    tax: biofertilizer
-  - type: KRISHI-Biocompost-Mixture-liquid-10L
-    weight: 10000
-    price: 5000
-    sku: KRISHI-Biocompost-Mixture-liquid-10L
-    tax: biofertilizer
 styles:
   - name: Front
     color: '#0FF000'

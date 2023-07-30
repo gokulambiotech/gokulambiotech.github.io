@@ -9,31 +9,6 @@ link: Mulberry Bio-Booster/
 new_window: false
 
 shop: false
-sizes:
-  - type: KRISHI-Mulberry Bio-Booster-Liquid-5L
-    weight: 5000
-    price: 2500
-    stock: 50
-    sku: KRISHI-Mulberry Bio-Booster-Liquid-5L
-    tax: biofertilizer
-  - type: KRISHI-Mulberry Bio-Booster-Liquid-10L
-    weight: 10000
-    price: 5000
-    stock: 50
-    sku: KRISHI-Mulberry Bio-Booster-Liquid-10L
-    tax: biofertilizer
-  - type: KRISHI-Mulberry Bio-Booster-Talc-3kg
-    weight: 3000
-    price: 404
-    stock: 100
-    sku:  KRISHI-Mulberry Bio-Booster-Talc-3kg
-    tax: biofertilizer
-  - type:  KRISHI-Mulberry Bio-Booster-Talc-5kg
-    weight: 5000
-    price: 675
-    stock: 100
-    sku:  KRISHI-Mulberry Bio-Booster-Talc-5kg
-    tax: biofertilizer
 styles:
   - name: Front
     color: '#0FF000'

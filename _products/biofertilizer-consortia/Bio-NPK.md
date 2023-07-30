@@ -18,7 +18,7 @@ sizes:
     tax: biofertilizer
   - type: KRISHI-Bio-NPK-Liquid-5L
     weight: 5000
-    price: 3500
+    price: 3000
     stock: 50
     sku: KRISHI-Bio-NPK-Liquid-5L
     tax: biofertilizer

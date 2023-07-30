@@ -12,7 +12,7 @@ shop: true
 sizes:
   - type: KRISHI-Krishizyme-0.5L
     weight: 500
-    price: 600
+    price: 300
     stock: 50
     sku: KRISHI-Krishizyme-0.5L
     tax: biofertilizer

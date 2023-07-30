@@ -12,7 +12,7 @@ shop: true
 sizes:
   - type: KRISHI-Eucalyptus-Bio-Booster-Talc-3KG
     weight: 3000
-    price: 140
+    price: 420
     stock: 50
     sku: KRISHI-Eucalyptus-Bio-Booster-Talc-3KG
     tax: biofertilizer

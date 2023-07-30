@@ -1,5 +1,5 @@
 ---
-title: Liquid Biocomposting - Compost-Enrichment-Culture
+title: Biocomposting - Compost-Enrichment-Culture
 name: KRISHI - Compost-Enrichment-Culture
 composting: true
 type: composting
@@ -9,19 +9,6 @@ link: Compost-Enrichment-Culture/
 new_window: false
 
 shop: false
-sizes:
-  - type: KRISHI-Compost-Enrichment-Culture-Liquid-5L
-    weight: 5000
-    price: 2500
-    stock: 50
-    sku: KRISHI-Compost-Enrichment-Culture-Liquid-5L
-    tax: biofertilizer
-  - type:  KRISHI-Compost-Enrichment-Culture-Liquid-10L
-    weight: 10000
-    price: 5000
-    stock: 50
-    sku: KRISHI-Compost-Enrichment-Culture-Liquid-10L
-    tax: biofertilizer
 styles:
   - name: Front
     color: '#0FF000'

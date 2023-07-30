@@ -9,19 +9,6 @@ link: Seaweed-Extract-Bio-fertilizer/
 new_window: false
 
 shop: false
-sizes:
-  - type: KRISHI-Seaweed-Extract-Bio-fertilizer-5L
-    weight: 5000
-    price: 2250
-    stock: 50
-    sku: KRISHI-Seaweed-Extract-Bio-fertilizer-5L
-    tax: biofertilizer
-  - type: KRISHI-Seaweed-Extract-Bio-fertilizer-10L
-    weight: 10000
-    price: 4500
-    stock: 50
-    sku: KRISHI-Seaweed-Extract-Bio-fertilizer-10L
-    tax: biofertilizer
 styles:
   - name: Front
     color: '#0FF000'

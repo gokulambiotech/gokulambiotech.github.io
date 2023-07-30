@@ -10,19 +10,6 @@ new_window: false
 
 
 shop: false
-sizes:
-  - type: KRISHI-Growth-and-Yield-Booster-Liquid-5L
-    weight: 5000
-    price: 2500
-    stock: 50
-    sku: KRISHI-Growth-and-Yield-Booster-Liquid-5L
-    tax: biofertilizer
-  - type: KRISHI-Growth-and-Yield-Booster-Talc-3kg
-    weight: 3000
-    price: 404
-    stock: 100
-    sku:  KRISHI-Growth-and-Yield-Booster-Talc-3kg
-    tax: biofertilizer
 styles:
   - name: Front
     color: '#0FF000'
