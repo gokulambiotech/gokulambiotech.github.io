@@ -1,5 +1,5 @@
 ---
-title: Liquid Biofertilizer - Potash Mobiliser
+title: Biofertilizer - Potash Mobiliser
 name: KRISHI - Potash Mobiliser
 fertilizer: true
 type: fertilizer
@@ -10,17 +10,17 @@ new_window: false
 
 shop: true
 sizes:
-  - type: KRISHI-Potash-Mobiliser-Liquid-5L
-    weight: 5000
-    price: 2500
+  - type: KRISHI-Potash-Mobiliser-Liquid-1L
+    weight: 1000
+    price: 600
     stock: 50
-    sku: KRISHI-Potash-Mobiliser-Liquid-5L
+    sku: KRISHI-Potash-Mobiliser-Liquid-1L
     tax: biofertilizer
-  - type: KRISHI-Potash-Mobiliser-Liquid-Liquid-10L
-    weight: 10000
-    price: 5000
-    stock: 50
-    sku: KRISHI-Potash-Mobiliser-Liquid-Liquid-10L
+  - type: KRISHI-Potash-Mobiliser-Talc-1KG
+    weight: 1000
+    price: 50
+    stock: 100
+    sku: KRISHI-Potash-Mobiliser-Talc-1KG
     tax: biofertilizer
 styles:
   - name: Front

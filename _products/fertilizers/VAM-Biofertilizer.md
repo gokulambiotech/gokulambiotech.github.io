@@ -13,17 +13,17 @@ description_markdown:
 
 shop: true
 sizes:
-  - type: KRISHI-VAM-Talc-3kg
-    weight: 3000
-    price: 375
+  - type: KRISHI-VAM-Talc-1KG
+    weight: 1000
+    price: 140 
     stock: 100
-    sku: KRISHI-VAM-Talc-3kg
+    sku: KRISHI-VAM-Talc-1KG
     tax: biofertilizer
-  - type: KRISHI-VAM-Talc-5kg
-    weight: 5000
-    price: 625
+  - type: KRISHI-VAM-Talc-3KG
+    weight: 3000
+    price: 420
     stock: 100
-    sku:  KRISHI-VAM-Talc-5kg
+    sku:  KRISHI-VAM-Talc-3KG
     tax: biofertilizer
 styles:
   - name: Front

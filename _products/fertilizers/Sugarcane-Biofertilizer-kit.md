@@ -8,7 +8,7 @@ shortdescription: Liquid Bio-Inoculants technology based  BioFertilizer Consorti
 link: Sugarcane-Biofertilizer-kit/
 new_window: false
 
-shop: true
+shop: false
 sizes:
   - type: KRISHI-Sugarcane-Biofertilizer-kit-5L
     weight: 5000

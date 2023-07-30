@@ -1,26 +1,26 @@
 ---
-title: Liquid Biofertilizer - Rhizosphere pH Regulator
-name: KRISHI - Rhizosphere pH Regulator
+title: Biofertilizer - Rhizobium
+name: KRISHI - Rhizobium
 fertilizer: true
 type: fertilizer
 image_path: /images/krish-logo.jpg
 shortdescription: is a unique product developed for soil having an alkaline pH range.
-link: Rhizosphere-pH-Regulator/
+link: Rhizobium/
 new_window: false
 
 shop: true
 sizes:
-  - type: KRISHI-Rhizosphere-pH-Regulator-Liquid-5L
-    weight: 5000
-    price: 2500
+  - type: KRISHI-Rhizobium-Liquid-1L
+    weight: 1000
+    price: 600
     stock: 50
-    sku: KRISHI-Rhizosphere-pH-Regulator-Liquid-5L
+    sku: KRISHI-Rhizobium-Liquid-1L
     tax: biofertilizer
-  - type: KRISHI-Rhizosphere-pH-Regulator-Liquid-10L
-    weight: 10000
-    price: 5000
-    stock: 50
-    sku: KRISHI-Rhizosphere-pH-Regulator-Liquid-10L
+  - type: KRISHI-Rhizobium-Talc-1KG
+    weight: 1000
+    price: 50
+    stock: 100
+    sku: KRISHI-Rhizobium-Talc-1KG
     tax: biofertilizer
 styles:
   - name: Front
@@ -28,7 +28,7 @@ styles:
     image: /images/krish-logo.jpg
 ---
 ### Description
-Krishi – Rhizosphere pH Regulator is a unique product developed for soil having an alkaline
+Krishi – Rhizobium is a unique product developed for soil having an alkaline
 pH range.
 
 Krishi - Rhizosphere pH Regulating Bacteria (RPHR), contains a consortia of bacteria,

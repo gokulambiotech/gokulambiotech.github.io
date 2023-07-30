@@ -1,5 +1,5 @@
 ---
-title: Liquid Biofertilizer - Zinc Solubiliser
+title: Biofertilizer - Zinc Solubiliser
 name: KRISHI - Zinc Solubiliser
 fertilizer: true
 type: fertilizer
@@ -9,20 +9,20 @@ link: Zinc-Solubiliser/
 new_window: false
 
 
-shop: false
+shop: true
 sku: krishi-zinc-solubiliser
 sizes:
-  - type: KRISHI-Zinc-Solubiliser-Talc-3kg
-    weight: 3000
-    price: 375
-    stock: 100
-    sku: KRISHI-Zinc-Solubiliser-Talc-3kg
+  - type: KRISHI-Zinc-Solubiliser-Liquid-1L
+    weight: 1000
+    price: 600
+    stock: 50
+    sku: KRISHI-Zinc-Solubiliser-Talc-1L
     tax: biofertilizer
-  - type: KRISHI-Zinc-Solubiliser-Talc-5kg
-    weight: 5000
-    price: 625
+  - type: KRISHI-Zinc-Solubiliser-Talc-1KG
+    weight: 1000
+    price: 50
     stock: 100
-    sku:  KRISHI-Zinc-Solubiliser-Talc-5kg
+    sku:  KRISHI-Zinc-Solubiliser-Talc-1KG
     tax: biofertilizer
 styles:
   - name: Front

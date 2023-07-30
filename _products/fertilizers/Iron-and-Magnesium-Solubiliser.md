@@ -1,26 +1,20 @@
 ---
-title: Biofertilizer - Silicate Solubiliser
-name: KRISHI - Silicate Solubiliser
+title: Liquid Biofertilizer - Iron-and-Magnesium-Solubiliser
+name: KRISHI - Iron-and-Magnesium-Solubiliser
 fertilizer: true
 type: fertilizer
 image_path: /images/krish-logo.jpg
 shortdescription: a bacterium capable of solubilising insoluble silica in soil is introduced to the farming community
-link: Silicate-Solubiliser/
+link: Iron-Mg-Solubiliser/
 new_window: false
 
 shop: true
 sizes:
-  - type: KRISHI-Silicate-Solubiliser-Liquid-1L
+  - type: KRISHI-Iron-Mg-Solubiliser-Liquid-1L
     weight: 1000
     price: 600
     stock: 50
-    sku: KRISHI-Silicate-Solubiliser-Liquid-1L
-    tax: biofertilizer
-  - type: KRISHI-Silicate-Solubiliser-Talc-1KG
-    weight: 1000
-    price: 50
-    stock: 500
-    sku: KRISHI-Silicate-Solubiliser-Liquid-1KG
+    sku: KRISHI-Iron-Mg-Solubiliser-Liquid-1L
     tax: biofertilizer
 styles:
   - name: Front
@@ -29,10 +23,10 @@ styles:
 ---
 ### Description
 For the first time, a bacterium capable of solubilising insoluble silica in soil is
-introduced to the farming community. Use of Silicate Solubiliser improves silica nutrition of
+introduced to the farming community. Use of Iron-and-Magnesium-Solubiliser improves silica nutrition of
 plants and renders them tolerant to lodging, drought and attack by insects/pests and diseases.
-Krishi-Silicate Solibiliser is a liquid biofertilizer containing pure cultures of naturally-
-occuring silicate solubilising bacterium with a CFU of 2 × 10 9 /ml and can be used for all
+Krishi-Iron-Mg Solibiliser is a liquid biofertilizer containing pure cultures of naturally-
+occuring Iron-Mg solubilising bacterium with a CFU of 2 × 10 9 /ml and can be used for all
 crops. Through secretion of specific organic acids, it solublises insoluble silica present in the
 soil.
 
