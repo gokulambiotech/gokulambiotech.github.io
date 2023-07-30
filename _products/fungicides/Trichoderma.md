@@ -1,5 +1,5 @@
 ---
-title: Liquid Biofungicide - Tricho
+title: Biofungicide - Tricho
 name: KRISHI - Trichoderma
 link: Tricho/
 fungicide: true
@@ -7,6 +7,25 @@ type: fungicide
 new_window: false
 shortdescription: Controls soil borne pathogens.
 image_path: /images/krish-logo.jpg
+
+shop: true
+sizes:
+  - type: KRISHI-Trichoderma-Liquid-1L
+    weight: 1000
+    price: 1000
+    stock: 50
+    sku: KRISHI-Trichoderma-Liquid-1L
+    tax: BIOPESTICIDE
+  - type: KRISHI-Trichoderma-Talc-1KG
+    weight: 1000
+    price: 100
+    stock: 50
+    sku: KRISHI-Trichoderma-Talc-1KG
+    tax: BIOPESTICIDE
+styles:
+  - name: Front
+    color: '#0FF000'
+    image: /images/krish-logo.jpg
 ---
 ### Description
 Krishi-Tricho is a biofungicide consisting of antagonistic fungus Trichoderma viride at a CFU of 2 × 10^8 per ml. It is a well-known suppressor of soil borne disease-causing organisms by way of competition for space, food, mycoparasitism and through production of metabolites toxic to disease-causing fungal pathogens.

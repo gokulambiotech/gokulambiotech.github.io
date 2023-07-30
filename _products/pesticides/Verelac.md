@@ -1,5 +1,5 @@
 ---
-title: Liquid Biopesticides - Verelac
+title: Biopesticides - Verelac
 name: KRISHI - Verelac
 link: Verelac/
 pesticide: true
@@ -10,30 +10,18 @@ image_path: /images/krish-logo.jpg
 
 shop: true
 sizes:
-  - type: KRISHI-Verelac-Liquid-5L
-    weight: 5000
-    price: 3750
+  - type: KRISHI-Verelac-Liquid-1L
+    weight: 1000
+    price: 1000
     stock: 50
-    sku: KRISHI-Verelac-Liquid-5L
-    tax: biopesticide
-  - type: KRISHI-Verelac-Liquid-10L
-    weight: 10000
-    price: 7500
+    sku: KRISHI-Verelac-Liquid-1L
+    tax: BIOPESTICIDE
+  - type: KRISHI-Verelac-Talc-1KG
+    weight: 1000
+    price: 100
     stock: 50
-    sku: KRISHI-Verelac-Liquid-10L
-    tax: biopesticide
-  - type: KRISHI-Verelac-Talc-3kg
-    weight: 3000
-    price: 480
-    stock: 100
-    sku:  KRISHI-Verelac-Talc-3kg
-    tax: biopesticide
-  - type:  KRISHI-Verelac-Talc-5kg
-    weight: 5000
-    price: 800
-    stock: 100
-    sku:  KRISHI-Verelac-Talc-5kg
-    tax: biopesticide
+    sku: KRISHI-Verelac-Talc-1KG
+    tax: BIOPESTICIDE
 styles:
   - name: Front
     color: '#0FF000'

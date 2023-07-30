@@ -8,33 +8,14 @@ new_window: false
 shortdescription:  For the control of mites.
 image_path: /images/krish-logo.jpg
 
-shop: true
+shop: false
 sizes:
   - type: KRISHI-Biomite-Liquid-5L
     weight: 5000
-    price: 3750
+    price: 5000
     stock: 50
     sku: KRISHI-Biomite-Liquid-5L
     tax: biopesticide
-  - type: KRISHI-Biomite-Liquid-10L
-    weight: 10000
-    price: 7500
-    stock: 50
-    sku: KRISHI-Biomite-Liquid-10L
-    tax: biopesticide
-  - type: KRISHI-Biomite-Talc-3kg
-    weight: 3000
-    price: 480
-    stock: 100
-    sku:  KRISHI-Biomite-Talc-3kg
-    tax: biopesticide
-  - type:  KRISHI-Biomite-Talc-5kg
-    weight: 5000
-    price: 800
-    stock: 100
-    sku:  KRISHI-Biomite-Talc-5kg
-    tax: biopesticide
-styles:
   - name: Front
     color: '#0FF000'
     image: /images/krish-logo.jpg

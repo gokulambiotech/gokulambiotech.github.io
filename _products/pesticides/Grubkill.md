@@ -10,30 +10,12 @@ image_path: /images/krish-logo.jpg
 
 shop: true
 sizes:
-  - type: KRISHI-Grubkill-Liquid-5L
-    weight: 5000
-    price: 3750
+  - type: KRISHI-Grubkill-Liquid-1L
+    weight: 1000
+    price: 1000
     stock: 50
-    sku: KRISHI-Grubkill-Liquid-5L
-    tax: biopesticide
-  - type: KRISHI-Grubkill-Liquid-10L
-    weight: 10000
-    price: 7500
-    stock: 50
-    sku: KRISHI-Grubkill-Liquid-10L
-    tax: biopesticide
-  - type: KRISHI-Grubkill-Talc-3kg
-    weight: 3000
-    price: 480
-    stock: 100
-    sku:  KRISHI-Grubkill-Talc-3kg
-    tax: biopesticide
-  - type:  KRISHI-Grubkill-Talc-5kg
-    weight: 5000
-    price: 800
-    stock: 100
-    sku:  KRISHI-Grubkill-Talc-5kg
-    tax: biopesticide
+    sku: KRISHI-Grubkill-Liquid-1L
+    tax: BIOPESTICIDE
 styles:
   - name: Front
     color: '#0FF000'

@@ -1,5 +1,5 @@
 ---
-title: Liquid Bio-fungicide - Pseudo
+title: Bio-fungicide - Pseudo
 name: KRISHI - Pseudomonas
 link: Pseudo/
 fungicide: true
@@ -7,6 +7,25 @@ type: fungicide
 new_window: false
 shortdescription: Controls foliar diseases.
 image_path: /images/krish-logo.jpg
+
+shop: true
+sizes:
+  - type: KRISHI-Pseudomonas-Liquid-1L
+    weight: 1000
+    price: 1000
+    stock: 50
+    sku: KRISHI-Pseudomonas-Liquid-1L
+    tax: BIOPESTICIDE
+  - type: KRISHI-Pseudomonas-Talc-1KG
+    weight: 1000
+    price: 100
+    stock: 50
+    sku: KRISHI-Pseudomonas-Talc-1KG
+    tax: BIOPESTICIDE
+styles:
+  - name: Front
+    color: '#0FF000'
+    image: /images/krish-logo.jpg
 ---
 ### Description
 Krishi-Pseudomonas is a bio-fungicide formulation containing plant growth promoting cum

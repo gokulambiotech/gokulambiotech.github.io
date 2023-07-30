@@ -1,7 +1,7 @@
 ---
-title: Liquid Biopesticides - Peelicide
-name: KRISHI - Peelicide
-link: Peelicide/
+title: Biopesticides - Pelicide
+name: KRISHI - Pelicide
+link: Pelicide/
 pesticide: true
 type: pesticide
 new_window: false
@@ -10,30 +10,18 @@ image_path: /images/krish-logo.jpg
 
 shop: true
 sizes:
-  - type: KRISHI-Peelicide-Liquid-5L
-    weight: 5000
-    price: 3750
+  - type: KRISHI-Pelicide-Liquid-1L
+    weight: 1000
+    price: 1000
     stock: 50
-    sku: KRISHI-Peelicide-Liquid-5L
-    tax: biopesticide
-  - type: KRISHI-Peelicide-Liquid-10L
-    weight: 10000
-    price: 7500
+    sku: KRISHI-Pelicide-Liquid-1L
+    tax: BIOPESTICIDE
+  - type: KRISHI-Pelicide-Talc-1KG
+    weight: 1000
+    price: 100
     stock: 50
-    sku: KRISHI-Peelicide-Liquid-10L
-    tax: biopesticide
-  - type: KRISHI-Peelicide-Talc-3kg
-    weight: 3000
-    price: 480
-    stock: 100
-    sku:  KRISHI-Peelicide-Talc-3kg
-    tax: biopesticide
-  - type:  KRISHI-Peelicide-Talc-5kg
-    weight: 5000
-    price: 800
-    stock: 100
-    sku:  KRISHI-Peelicide-Talc-5kg
-    tax: biopesticide
+    sku: KRISHI-Pelicide-Talc-1KG
+    tax: BIOPESTICIDE
 styles:
   - name: Front
     color: '#0FF000'
