@@ -25,7 +25,7 @@ sizes:
 styles:
   - name: Front
     color: '#0FF000'
-    image: /images/krish-logo.jpg
+    image: /images/products/onlineshop/Phosphobacterium.jpeg
 ---
 ### Description
 KRISHI-Phosphobacterium is a liquid biofertilizer containing pure culture of naturally

@@ -25,17 +25,23 @@ sizes:
 styles:
   - name: Front
     color: '#0FF000'
-    image: /images/krish-logo.jpg
+    image: /images/products/onlineshop/NimmaGuard.jpeg
 ---
 ### Description
-Krishi-Nimmagguard is a combined biopesticide formulation containing Beauveria bassiana and a few other entomopathogenic fungi, with a CFU of 2 × 10^8 per ml.
+Krishi Nimagguard is a comprehensive bio-control package useful for control of nematodes in all crops, especially in crops having severe bio-nematicidal agents such as Paeciomyces lilacinus and other knov nematophagus fungal antagonists
+Krishi Nimagguard contains nematicidal fungal antagonists.
 
-### Target Pests
-Krishi-Nimmagguard is effective for the control of hardbodied insects such as caterpillars, borers, beetles and grubs. Spores of the fungus invade insect body through the cuticle and proliferate inside insect body, sporulating and causing death.
+Krishi Nimagquard contains nematicidal fungal antagonists at CFU of minimum 15 x 10"per mi.
+### Target Crops
+For control of severe nematode infestation in all crops, Agricultural use such as figs. Pomegranate and other nematode susceotible croos.
 
-### Target Crops:
-Paddy, Cotton, Sugarcane, Pepper, Cardamom, Banana, Potato, Turmeric,
-Ginger, Coffee, Grapes, Pomegranate, Groundnut and all vegetable crops.
+### Dosage and directions for use
 
-### Dosage and Directions for use:
-Krishi - Nimmagguard can be used at the rate of 250 ml per acre, dissolved in 250 to 400 liters of water and sprayed thoroughly drenching the canopy, including underside of foliage. Spraying must be carried out during the cooler periods of the day, preferably during late evening hours.
+Drenching rhizosphere with solution containing Krishi - Nimaggard will be highly effective for controlling nematodes. For soil drenching and depending on the severity of nematode infestation, Krishi-Nimagguard is recommended at the rate of 5 to no m per hectare and aooed a 20 to 30 cays intervnis.
+
+Krishl-Nimagguard can be mixed FYM and applied at the root zone or a clear water suspension of Krishi-Nimagguard can be applied directly to the root zone through the drip irrigation system.
+Shelf-life: One vear trom the date of packing
+#### Compatibility & Precautions
+A gap of about one week must be allowed between application of other commonly used farm chemicals such as Tungicides and antibiotics. Not compatible with chemical fungicides and antosorics
+
+Storage Must be stored in cool dry place altemporatu e less than 45C
