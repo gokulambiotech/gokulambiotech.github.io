@@ -10,17 +10,11 @@ new_window: false
 
 shop: true
 sizes:
-  - type: KRISHI-Krishizyme-5L
-    weight: 5000
-    price: 2250
+  - type: KRISHI-Krishizyme-0.5L
+    weight: 500
+    price: 600
     stock: 50
-    sku: KRISHI-Krishizyme-5L
-    tax: biofertilizer
-  - type: KRISHI-Krishizyme-10L
-    weight: 10000
-    price: 4500
-    stock: 50
-    sku: KRISHI-Krishizyme-10L
+    sku: KRISHI-Krishizyme-0.5L
     tax: biofertilizer
 styles:
   - name: Front

@@ -8,7 +8,7 @@ image_path: /images/krish-logo.jpg
 link: Compost-Enrichment-Culture/
 new_window: false
 
-shop: true
+shop: false
 sizes:
   - type: KRISHI-Compost-Enrichment-Culture-Liquid-5L
     weight: 5000

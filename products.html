@@ -54,8 +54,8 @@ description: All products have minimum 1 year shelf-life.
 				<li>
 					<a href="{% include relative-src.html src=product.url %}" class="{{ class }}" {% if
 						product.new_window %} target="_blank" rel="noopener noreferrer" {% endif %}>
-						{% if product.highlight %}
-						<mark>New:</mark>
+						{% if product.shop %}
+						<mark>Order Online:</mark>
 						{% endif %}
 						{{ product.name}}
 						<!-- {% if product.shop %}

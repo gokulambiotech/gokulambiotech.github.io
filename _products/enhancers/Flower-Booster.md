@@ -10,17 +10,11 @@ new_window: false
 
 shop: true
 sizes:
-  - type: KRISHI-Flower-Booster-5L
-    weight: 5000
+  - type: KRISHI-Flower-Booster-0.5L
+    weight: 500
     price: 2250
     stock: 50
-    sku: KRISHI-Flower-Booster-5L
-    tax: biofertilizer
-  - type: KRISHI-Flower-Booster-10L
-    weight: 10000
-    price: 4500
-    stock: 50
-    sku: KRISHI-Flower-Booster-10L
+    sku: KRISHI-Flower-Booster-0.5L
     tax: biofertilizer
 styles:
   - name: Front

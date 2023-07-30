@@ -8,37 +8,37 @@ shortdescription: Liquid Bio-Inoculants technology based  BioFertilizer Consorti
 link: Banana-Biofertilizer-kit/
 new_window: false
 
-shop: true
+shop: false
 sizes:
-  - type: Banana-Biofertilizer-kit-1--Liquid-5L
+  - type: Banana-Biofertilizer-kit-1-Liquid-5L
     weight: 5000
     price: 2500
     stock: 50
-    sku: KRISHI-Banana-Biofertilizer-kit-1--Liquid-5L
+    sku: KRISHI-Banana-Biofertilizer-kit-1-Liquid-5L
     tax: biofertilizer
-  - type: Banana-Biofertilizer-kit-2--Liquid-5L
+  - type: Banana-Biofertilizer-kit-2-Liquid-5L
     weight: 5000
     price: 2500
     stock: 50
-    sku: KRISHI-Banana-Biofertilizer-kit-2--Liquid-5L
+    sku: KRISHI-Banana-Biofertilizer-kit-2-Liquid-5L
     tax: biofertilizer
-  - type: Banana-Biofertilizer-kit-3--Liquid-5L
+  - type: Banana-Biofertilizer-kit-3-Liquid-5L
     weight: 5000
     price: 2500
     stock: 50
-    sku: KRISHI-Banana-Biofertilizer-kit-3--Liquid-5L
+    sku: KRISHI-Banana-Biofertilizer-kit-3-Liquid-5L
     tax: biofertilizer
-  - type: Banana-Biofertilizer-kit-4--Liquid-5L
+  - type: Banana-Biofertilizer-kit-4-Liquid-5L
     weight: 5000
     price: 2500
     stock: 50
-    sku: KRISHI-Banana-Biofertilizer-kit-4--Liquid-5L
+    sku: KRISHI-Banana-Biofertilizer-kit-4-Liquid-5L
     tax: biofertilizer
-  - type: Banana-Biofertilizer-kit-5--Liquid-5L
+  - type: Banana-Biofertilizer-kit-5-Liquid-5L
     weight: 5000
     price: 2500
     stock: 50
-    sku: KRISHI-Banana-Biofertilizer-kit-5--Liquid-5L
+    sku: KRISHI-Banana-Biofertilizer-kit-5-Liquid-5L
     tax: biofertilizer
 styles:
   - name: Front

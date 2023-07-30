@@ -10,17 +10,11 @@ new_window: false
 
 shop: true
 sizes:
-  - type: KRISHI-Rootplus-5L
-    weight: 5000
-    price: 2250
+  - type: KRISHI-Rootplus-0.5L
+    weight: 500
+    price: 600
     stock: 50
-    sku: KRISHI-Rootplus-5L
-    tax: biofertilizer
-  - type: KRISHI-Rootplus-10L
-    weight: 10000
-    price: 4500
-    stock: 50
-    sku: KRISHI-Rootplus-10L
+    sku: KRISHI-Rootplus-0.5L
     tax: biofertilizer
 styles:
   - name: Front

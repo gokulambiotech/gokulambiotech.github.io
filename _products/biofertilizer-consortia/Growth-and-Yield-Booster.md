@@ -1,5 +1,5 @@
 ---
-title: Liquid Biofertilizer-Consortia - Growth and Yield Booster (General)
+title: Biofertilizer-Consortia - Growth and Yield Booster (General)
 name: KRISHI - Growth and Yield Booster (General)
 biofertilizer-consortia: true
 type: biofertilizer-consortia
@@ -9,7 +9,7 @@ link: Growth-and-Yield-Booster/
 new_window: false
 
 
-shop: true
+shop: false
 sizes:
   - type: KRISHI-Growth-and-Yield-Booster-Liquid-5L
     weight: 5000
@@ -17,23 +17,11 @@ sizes:
     stock: 50
     sku: KRISHI-Growth-and-Yield-Booster-Liquid-5L
     tax: biofertilizer
-  - type: KRISHI-Growth-and-Yield-Booster-Liquid-10L
-    weight: 10000
-    price: 5000
-    stock: 50
-    sku: KRISHI-Growth-and-Yield-Booster-Liquid-10L
-    tax: biofertilizer
   - type: KRISHI-Growth-and-Yield-Booster-Talc-3kg
     weight: 3000
     price: 404
     stock: 100
     sku:  KRISHI-Growth-and-Yield-Booster-Talc-3kg
-    tax: biofertilizer
-  - type:  KRISHI-Growth-and-Yield-Booster-Talc-5kg
-    weight: 5000
-    price: 675
-    stock: 100
-    sku:  KRISHI-Growth-and-Yield-Booster-Talc-5kg
     tax: biofertilizer
 styles:
   - name: Front

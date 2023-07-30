@@ -1,6 +1,6 @@
 ---
-title: Liquid Biofertilizer-Consortia - Coconut Bio-Booste
-name: KRISHI - Coconut Bio-Booste
+title: Liquid Biofertilizer-Consortia - Coconut Bio-Booster
+name: KRISHI - Coconut Bio-Booster
 biofertilizer-consortia: true
 type: biofertilizer-consortia
 shortdescription: Casuarina Bio-Booster contains a consortia of bioinoculants
@@ -12,27 +12,9 @@ shop: true
 sizes:
   - type: KRISHI-Coconut-Bio-Booster-Liquid-5L
     weight: 5000
-    price: 2500
+    price: 600
     stock: 50
     sku: KRISHI-Coconut-Bio-Booster-Liquid-5L
-    tax: biofertilizer
-  - type: KRISHI-Coconut-Bio-Booster-Liquid-10L
-    weight: 10000
-    price: 5000
-    stock: 50
-    sku: KRISHI-Coconut-Bio-Booster-Liquid-10L
-    tax: biofertilizer
-  - type: KRISHI-Coconut-Bio-Booster-Talc-3kg
-    weight: 3000
-    price: 404
-    stock: 100
-    sku:  KRISHI-Coconut-Bio-Booster-Talc-3kg
-    tax: biofertilizer
-  - type:  KRISHI-Coconut-Bio-Booster-Talc-5kg
-    weight: 5000
-    price: 675
-    stock: 100
-    sku:  KRISHI-Coconut-Bio-Booster-Talc-5kg
     tax: biofertilizer
 styles:
   - name: Front

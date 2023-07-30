@@ -10,29 +10,11 @@ new_window: false
 
 shop: true
 sizes:
-  - type: KRISHI-Casuarina-Bio-Booster-Liquid-5L
-    weight: 5000
-    price: 2500
+  - type: KRISHI-Casuarina-Bio-Booster1,2,3-Liquid-1L
+    weight: 1000
+    price: 600
     stock: 50
-    sku: KRISHI-Casuarina-Bio-Booster-Liquid-5L
-    tax: biofertilizer
-  - type: KRISHI-Casuarina-Bio-Booster-Liquid-10L
-    weight: 10000
-    price: 5000
-    stock: 50
-    sku: KRISHI-Casuarina-Bio-Booster-Liquid-10L
-    tax: biofertilizer
-  - type: KRISHI-Casuarina-Bio-Booster-Talc-3kg
-    weight: 3000
-    price: 404
-    stock: 100
-    sku:  KRISHI-Casuarina-Bio-Booster-Talc-3kg
-    tax: biofertilizer
-  - type:  KRISHI-Casuarina-Bio-Booster-Talc-5kg
-    weight: 5000
-    price: 675
-    stock: 100
-    sku:  KRISHI-Casuarina-Bio-Booster-Talc-5kg
+    sku: KRISHI-Casuarina-Bio-Booster1,2,3-Liquid-1L
     tax: biofertilizer
 styles:
   - name: Front
@@ -42,3 +24,5 @@ styles:
 ### Description
 Krishi – Casuarina Bio-Booster contains a consortia of bioinoculants required at different stages of growth of casuarina crop.
 - Krishi-Casuarina Bio-Booster No:1 contains biofertilizers such as Azospirillum, Phosphobacterium and Potash Mobiliser in proportions required by the young casuarina plants during early vegetative growth phase. It facilitates early and proper development of root system and encourages maximum vegetative growth.
+- Krishi-Casuarina Bio-Booster No:2 contains biofertilizers such as Azospirillum, Phosphobacterium, Potash Mobiliser, Zinc solubiliser and Silicate solubiliser in proportions required for growing trees.
+- Krishi-Casuarina Bio-Booster No:3 contains biofertilizers such as Potash Mobiliser and Silicate solubiliser in proper proportions required for established trees and is helpful for increasing girth of tree trunk and maximizing soft wood weight.

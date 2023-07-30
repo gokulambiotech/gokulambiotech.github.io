@@ -1,26 +1,26 @@
 ---
-title: Liquid Bioenhancers - Seaweed Extract Bio-fertilizer
-name: KRISHI - Seaweed Extract Bio-fertilizer
+title: Liquid Bioenhancers - Homiforte
+name: KRISHI - Homiforte
 enhancers: true
 type: enhancers
 shortdescription: a consortia of biofertilizers necessary for augmenting vegetative growth of mulberry
 image_path: /images/krish-logo.jpg
-link: Seaweed-Extract-Bio-fertilizer/
+link: Homiforte/
 new_window: false
 
 shop: true
 sizes:
-  - type: KRISHI-Seaweed-Extract-Bio-fertilizer-5L
+  - type: KRISHI-Homiforte-5L
     weight: 5000
     price: 2250
     stock: 50
-    sku: KRISHI-Seaweed-Extract-Bio-fertilizer-5L
+    sku: KRISHI-Homiforte-5L
     tax: biofertilizer
-  - type: KRISHI-Seaweed-Extract-Bio-fertilizer-10L
+  - type: KRISHI-Homiforte-10L
     weight: 10000
     price: 4500
     stock: 50
-    sku: KRISHI-Seaweed-Extract-Bio-fertilizer-10L
+    sku: KRISHI-Homiforte-10L
     tax: biofertilizer
 styles:
   - name: Front
