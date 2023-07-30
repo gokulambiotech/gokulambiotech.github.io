@@ -9,6 +9,7 @@ link: Sugar-Cane-Growth-and-Yield-Boosters/
 new_window: false
 
 shop: false
+styles:
   - name: Front
     color: '#0FF000'
     image: /images/krish-logo.jpg
