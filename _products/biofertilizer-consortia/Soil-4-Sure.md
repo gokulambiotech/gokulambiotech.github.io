@@ -31,7 +31,7 @@ sizes:
 styles:
   - name: Front
     color: '#0FF000'
-    image: /images/krish-logo.jpg
+    image: /images/products/onlineshop/soil-4-sure.jpg
 ---
 ### Description
 Krishi Soil-4-Sure is a comprehensive soil nutrition and health package useful for all crops. It has nutitional, bioremediation and biofumigation capabilities. It contains consortia of rhizosophere specific beneficial bio-fertilizer inoculants. Besides facilitating optimal nutrient uptake by plants. Krishi Soil-4-Sure also improves plants ability to cope-up with soil-borne biotic stress due to disease and insects. With regular application of Krishi Soil-4-Sure to soil, farmers can reduce dosage of chemical ferfilizers used by a minimum of 25%.

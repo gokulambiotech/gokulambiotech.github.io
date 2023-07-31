@@ -25,7 +25,7 @@ sizes:
 styles:
   - name: Front
     color: '#0FF000'
-    image: /images/krish-logo.jpg
+    image: /images/products/onlineshop/NPK.jpg
 ---
 ### Description
 Krishi - BIO NPK Liquid Consortia is a liquid biofertilizer containing a mixture of various functionally different biofertilizers such as Azospirillum, Phosphate solubilising Bacterium and Potassium Mobilizing Bacterium with an individual viable cell count of CFU minimum 1 x 10 cells per mi of liguid consortia

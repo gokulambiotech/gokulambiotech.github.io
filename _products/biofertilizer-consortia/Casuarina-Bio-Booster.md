@@ -10,11 +10,23 @@ new_window: false
 
 shop: true
 sizes:
-  - type: KRISHI-Casuarina-Bio-Booster1,2,3-Liquid-1L
+  - type: KRISHI-Casuarina-Bio-Booster-1-Liquid-1L
     weight: 1000
     price: 600
     stock: 50
-    sku: KRISHI-Casuarina-Bio-Booster1,2,3-Liquid-1L
+    sku: KRISHI-Casuarina-Bio-Booster-1-Liquid-1L
+    tax: biofertilizer
+  - type: KRISHI-Casuarina-Bio-Booster-2-Liquid-1L
+    weight: 1000
+    price: 600
+    stock: 50
+    sku: KRISHI-Casuarina-Bio-Booster-2-Liquid-1L
+    tax: biofertilizer
+  - type: KRISHI-Casuarina-Bio-Booster-3-Liquid-1L
+    weight: 1000
+    price: 600
+    stock: 50
+    sku: KRISHI-Casuarina-Bio-Booster-3-Liquid-1L
     tax: biofertilizer
 styles:
   - name: Front

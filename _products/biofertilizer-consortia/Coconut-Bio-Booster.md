@@ -23,5 +23,5 @@ styles:
 ---
 ### Description
 A bacterial formulation, which contains a consortia of biofertilziers necessary for augmenting growth and production. Coconut Bio-booster contains biofertilizers such as Azospirullum, Phosphobacterium, Potash Mobiliser, Zinc Solubiliser and Silicate Solubilier. 
-- Total bacterial count, CFU 2 x 10 9 per ml.
+- Total bacterial count, CFU 2 x 10<sup>9</sup> per ml.
 - Krishi – Cocount Bio-Booster is recommended as soil application at the rate of 1 to 2 liters per acre or about 25 to 50 ml per tree.
