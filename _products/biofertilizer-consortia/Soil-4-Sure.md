@@ -23,7 +23,7 @@ sizes:
     sku: KRISHI-Soil-4-Sure-Talc-1KG
     tax: biofertilizer
   - type: KRISHI-Soil-4-Sure-Talc-5KG
-    weight: 5000
+    weight: 3000
     price: 465
     stock: 50
     sku: KRISHI-Soil-4-Sure-Talc-5KG

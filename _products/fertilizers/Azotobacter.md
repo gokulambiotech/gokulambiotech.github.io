@@ -6,7 +6,7 @@ fertilizer: true
 type: fertilizer
 new_window: false
 shortdescription: also referred to recently as Glucon Azotobacter and is recommended as a biofertilizer for sugarcane.
-image_path: /images/krish-logo.jpg
+image_path: /images/products/onlineshop/Azotobacter.jpg
 
 shop: true
 sizes:
@@ -25,7 +25,10 @@ sizes:
 styles:
   - name: Front
     color: '#0FF000'
-    image: /images/krish-logo.jpg
+    image: /images/products/onlineshop/Azotobacter.jpg
+  - name: Label
+    color: '#0FF'
+    image: /images/products/onlineshop/Azotobacter1.jpg
 ---
 ### Description
 This is also referred to recently as Glucon Azotobacter and is recommended as

@@ -25,7 +25,10 @@ sizes:
 styles:
   - name: Front
     color: '#0FF000'
-    image: /images/krish-logo.jpg
+    image: /images/products/onlineshop/Azospirillum.jpg
+  - name: Label
+    color: '#0FF'
+    image: /images/products/onlineshop/Azospirillum1.jpg
 ---
 ### Description
 

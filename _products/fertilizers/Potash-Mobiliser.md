@@ -25,7 +25,10 @@ sizes:
 styles:
   - name: Front
     color: '#0FF000'
-    image: /images/krish-logo.jpg
+    image: /images/products/onlineshop/Potash-Mobiliser1.jpg
+  - name: Front
+    color: '#0FF'
+    image: /images/products/onlineshop/Potash-Mobiliser.jpg
 ---
 
 ### Description
