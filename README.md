@@ -22,16 +22,23 @@ This website is built based on Jekyll static webspages https://jekyllrb.com/.
  - bundle exec jekyll serve
 ```
 ## Installatio on Mac M1
-
-```
- - gem install bundler:2.2.28 --user
- - bundle config set --local path 'vendor/bundle'
- - bundle config build.ffi --enable-libffi-alloc
- - bundler install
- - bundle update
- - bundle config set force_ruby_platform true
- - bundle exec jekyll serve
-```
+- After a Mac software update - make sure that you have Xcode installed from App Store
+- Managing different ruby versions on your MAC via https://github.com/rbenv/rben
+  - edit ~/.zshrc include `eval "$(rbenv init -)"`
+  - to see local stable versions `rbenv install -l`
+  - to install one of the stable ones `rbenv install 3.4.1`
+  - to see installed versions `rbenv versions`
+  - to set local folder's ruby version `rbenv local 3.4.1`
+  - to test local ruby version `ruby -v`
+  - to update bundler via gem `gem update bundler`
+  - to update all gems `gem update`
+  - to install all new bundles `bundle install`
+  - to server and test locally `bundle exec jekyll serve`
+  - to update all dependencies `bundle update`
+### Dependency Vulnerabilty Checks
+  - to check dependency issues `gem install bundle-audit`
+  - to update `bundler-audit download`        # Downloads ruby-advisory-db
+  - to check `bundler-audit check .`
 
 ### Firefox dev plugin
 Google Analytis blocker plugin will block page visits.
